@@ -49,6 +49,39 @@ Below are some of the primary technologies and tools I work with.
 
 
 ## I am on the lookout for freelancing/blockchain opportunities in smart contract and Backend web2/web3 development. 🕸️
-<!-- Removed the “Let’s Connect” section as per request -->
 
-<!-- <sub>_This README was built with ❤️ and is regularly updated via GitHub Actions.  Explore my repositories and let’s build something amazing together!_</sub> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Hi there 👋
+- 🔊 **Recently, I have been looking for jobs related to Solidity, Rust, Golang and Typescript，If there is a suitable job opportunity, please feel free to send an email to manmit0x@gmail.com. I will respond at the earliest convenience after receiving your message** 
+
+
+
+### Profile Views
+
+<img src="https://count.getloli.com/get/@:0xDevNinja?theme=gelbooru-h" alt=":name" />
+
+<a href="https://blog.ljbmxsm.com">
+  <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api?username=0xDevNinja&show_icons=true&count_private=true&theme=radical" />
+</a>
+<a href="https://blog.ljbmxsm.com">
+  <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api/top-langs/?username=0xDevNinja&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
+</a>
+
+
