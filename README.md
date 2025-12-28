@@ -1,5 +1,5 @@
-# DevNinja – Senior Blockchain developer
-<h1 align="center">Hi 👋 I'm DevNinja</h1>
+# Senior Blockchain developer
+<!-- <h1 align="center">Hi 👋 </h1> -->
 
 <p align="center">
   <!-- Banner generated via capsule‑render → https://capsule-render.vercel.app -->
@@ -48,28 +48,9 @@ Below are some of the primary technologies and tools I work with.
 | **Docker** | **Kubernetes** | **Git** | **AWS** | **GCP** |
 
 
-## I am on the lookout for freelancing/blockchain opportunities in smart contract and Backend web2/web3 development. 🕸️
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Hi there 👋
-- 🔊 **Recently, I have been looking for jobs related to Solidity, Rust, Golang and Typescript，If there is a suitable job opportunity, please feel free to send an email to manmit0x@gmail.com. I will respond at the earliest convenience after receiving your message** 
+## 🔊 I’m currently exploring freelance and blockchain opportunities focused on smart contract and backend Web2/Web3 development.
 
 
 
