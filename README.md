@@ -48,6 +48,7 @@ Below are some of the primary technologies and tools I work with.
 | **Docker** | **Kubernetes** | **Git** | **AWS** | **GCP** |
 
 
+## I am on the lookout for freelancing/blockchain opportunities in smart contract and Backend web2/web3 development. 🕸️
 <!-- Removed the “Let’s Connect” section as per request -->
 
 <!-- <sub>_This README was built with ❤️ and is regularly updated via GitHub Actions.  Explore my repositories and let’s build something amazing together!_</sub> -->
