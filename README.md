@@ -1,4 +1,4 @@
-# DevNinja – Blockchain & Full‑Stack Engineer
+# DevNinja – Senior Blockchain Engineer
 
 <h1 align="center">Hi&nbsp;👋&nbsp;I'm DevNinja</h1>
 
