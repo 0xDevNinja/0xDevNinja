@@ -22,12 +22,7 @@
 
 ## 🧑‍💻 About Me
 
-I’m a blockchain software engineer from India who loves building decentralized systems and modern web applications.  I actively experiment with emerging protocols and enjoy bridging Web3 with full‑stack development.  My core languages are **Golang**, **Solidity**, **Rust** and **JavaScript** (MERN stack).
-
-- **Golang:** Go’s concurrency, readability and high performance make it ideal for high‑throughput blockchain back‑ends【270412622233180†L422-L436】.  Major projects such as the Cosmos SDK, IPFS (Kubo) and Ethereum clients like **Geth** use Go【270412622233180†L439-L447】.
-- **Solidity:** the dominant language for Ethereum smart contracts.  Tools like **Remix IDE**, **Hardhat** and **Truffle** accelerate contract development【67904717042482†L133-L146】.
-- **Rust:** memory safety, zero‑cost abstractions and concurrency help build secure, high‑performance chains【270412622233180†L524-L536】.  Rust powers ecosystems such as **Solana**, **NEAR** and **Polkadot**【270412622233180†L543-L548】.
-- **MERN:** the unified JavaScript stack (MongoDB, Express.js, React, Node.js) enables rapid development of scalable web apps【952266439479887†L62-L67】.  Using a single language across front‑end and back‑end simplifies learning and boosts productivity【952266439479887†L81-L87】.
+I’m a senior blockchain engineer who loves building decentralized systems and modern web applications.  I actively experiment with emerging protocols and enjoy bridging Web3 with full‑stack backend development.  My core languages are **Golang**, **Solidity**, **Rust** and **JavaScript** (MERN stack).
 
 ## 🛠️ Tech & Tools
 
