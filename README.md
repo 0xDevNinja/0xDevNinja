@@ -1,6 +1,6 @@
-# DevNinja – Senior Blockchain Engineer
+# DevNinja – Blockchain & Full‑Stack Engineer
 
-<h1 align="center">Hi&nbsp;👋&nbsp;I'm DevNinja</h1>
+<h1 align="center">Hi 👋 I'm DevNinja</h1>
 
 <p align="center">
   <!-- Banner generated via capsule‑render → https://capsule-render.vercel.app -->
@@ -31,75 +31,32 @@ I’m a blockchain software engineer from India who loves building decentralized
 
 ## 🛠️ Tech & Tools
 
-This section highlights the frameworks and tooling I use as part of a senior blockchain engineer.  The examples below are grouped by category so recruiters can quickly see the breadth of my experience.
+Below are some of the primary technologies and tools I work with. Each icon links to a technology I use regularly, inspired by the minimalist layout in [techytushar](https://github.com/techytushar/techytushar).
 
-<details>
-<summary>Smart Contract IDEs &amp; Frameworks</summary>
+### Programming Languages
 
-- **Remix IDE** – browser‑based editor for quick Solidity prototyping【67904717042482†L133-L146】.
-- **Hardhat** – feature‑rich framework offering local network simulation, Solidity debugging and a powerful plugin ecosystem【67904717042482†L141-L144】.
-- **Truffle** – mature suite for contract compilation, migration scripts and testing【67904717042482†L141-L147】【67904717042482†L234-L244】.
-- **OpenZeppelin** – audited libraries providing secure implementations of ERC‑20, ERC‑721 and ERC‑1155 standards【67904717042482†L329-L335】.
+<img title="Go" alt="Go" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> | <img title="Solidity" alt="Solidity" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" /> | <img title="Rust" alt="Rust" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" /> | <img title="JavaScript" alt="JavaScript" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
-</details>
+| -- | -- | -- | -- |
+| **Go** | **Solidity** | **Rust** | **JavaScript/TypeScript** |
 
-<details>
-<summary>Node Clients &amp; Networks</summary>
+### Frameworks & Libraries
 
-- **Geth** – reference Ethereum client written in Go【67904717042482†L266-L272】.
-- **Erigon** – high‑performance archival node optimized for speed and efficiency【67904717042482†L274-L280】.
-- **Hyperledger Besu** – enterprise‑friendly Ethereum client for private chains【67904717042482†L155-L159】.
-- **Infura / Alchemy** – hosted node providers offering scalable API access to Ethereum, Polygon and IPFS【67904717042482†L180-L184】【67904717042482†L282-L289】.
+<img title="Hardhat" alt="Hardhat" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hardhat/hardhat-original.svg" /> | <img title="Node.js" alt="Node.js" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> | <img title="React" alt="React" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> | <img title="Express" alt="Express" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /> | <img title="MongoDB" alt="MongoDB" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
 
-</details>
+| -- | -- | -- | -- | -- |
+| **Hardhat** | **Node.js** | **React** | **Express** | **MongoDB** |
 
-<details>
-<summary>Wallets &amp; Key Management</summary>
+### Infrastructure & DevOps
 
-- **MetaMask** – widely adopted browser wallet for dApp interaction【67904717042482†L169-L170】.
-- **WalletConnect** – protocol for connecting mobile wallets to dApps【67904717042482†L169-L170】.
-- **Fireblocks** – institutional‑grade custody platform for secure key management【67904717042482†L171-L173】.
+<img title="Docker" alt="Docker" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" /> | <img title="Kubernetes" alt="Kubernetes" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" /> | <img title="Git" alt="Git" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /> | <img title="AWS" alt="AWS" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/aws/aws.png" /> | <img title="Google Cloud" alt="Google Cloud" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/google-cloud/google-cloud.png" />
 
-</details>
+| -- | -- | -- | -- | -- |
+| **Docker** | **Kubernetes** | **Git** | **AWS** | **GCP** |
 
-<details>
-<summary>Testing &amp; Debugging</summary>
+### Tools for Web3
 
-- **Ganache** – local in‑memory blockchain simulating Ethereum for tests【67904717042482†L192-L193】.
-- **Tenderly** – real‑time monitoring and debugging platform for deployed contracts【67904717042482†L192-L195】.
-- **Foundry / Forge** – high‑speed Rust‑based testing framework (my go‑to for advanced projects).
-
-</details>
-
-<details>
-<summary>Web3 SDKs &amp; Libraries</summary>
-
-- **Ethers.js / Web3.js** – JavaScript libraries connecting front‑ends to the blockchain【67904717042482†L311-L317】.
-- **Thirdweb** – low‑code SDK simplifying contract deployment and wallet integration【67904717042482†L301-L309】.
-- **The Graph** – decentralized indexing protocol for efficient blockchain queries【67904717042482†L363-L369】.
-- **Moralis** – backend as a service for syncing blockchain data and user authentication【67904717042482†L337-L343】.
-- **Chainlink** – decentralized oracle network bringing off‑chain data on‑chain【67904717042482†L355-L361】.
-
-</details>
-
-<details>
-<summary>Infrastructure &amp; DevOps</summary>
-
-- **IPFS / Filecoin** – peer‑to‑peer storage and incentive layer for decentralized file hosting【67904717042482†L345-L353】.
-- **Docker &amp; Kubernetes** – containerization and orchestration to deploy blockchain nodes and full‑stack services.
-- **AWS / GCP** – cloud platforms for hosting Node/React apps, running validator nodes and scaling infrastructure.
-- **CI/CD** – GitHub Actions, Hardhat tasks and automated testing pipelines ensuring reliable deployments.
-
-</details>
-
-## 📂 Featured Projects
-
-| Project | Description |
-| --- | --- |
-| **[hyperlane‑monorepo](https://github.com/0xDevNinja/hyperlane-monorepo)** | Fork of the Hyperlane core contracts, SDK packages and other infrastructure【884845254551046†L466-L468】. I contributed to interoperability modules and cross‑chain messaging. |
-| **[prb‑math](https://github.com/0xDevNinja/prb-math)** | Fork of the PRB‑Math library providing advanced fixed‑point math for Solidity【884845254551046†L618-L620】. My work focused on optimizing arithmetic functions and adding safety checks. |
-| **[solidity‑examples](https://github.com/0xDevNinja/solidity-examples)** | A collection of smart contract patterns demonstrating ERC‑20 swaps, staking mechanisms and gas optimizations. |
-| **[Treasure‑Hunt](https://github.com/0xDevNinja/Treasure-Hunt)** | Simple Solidity game exploring on‑chain logic and random number generation using Chainlink VRF. |
+While not all of these have widely recognized icons, here are a few of the SDKs and services I use frequently: **Ethers.js**, **Thirdweb**, **The Graph**, **Moralis**, **Chainlink** and **Foundry**.
 
 ## 📈 GitHub Stats
 
@@ -116,18 +73,13 @@ This section highlights the frameworks and tooling I use as part of a senior blo
 
 ## 🌱 Current Focus
 
+- Deepening **Solidity** expertise through advanced patterns like upgradeable contracts and exploring EIP‑2535 (Diamond Standard) and account abstraction.
+- Optimizing **Go** back‑end services by leveraging Go’s concurrency and memory safety for high‑throughput blockchain modules【270412622233180†L422-L436】.
+- Building in **Rust** – exploring Substrate development and contributing to Rust‑based chains such as **Solana** and **NEAR**, focusing on memory safety and performance【270412622233180†L524-L548】.
 - Exploring **zero‑knowledge proofs** and privacy‑preserving protocols.
 - Building **cross‑chain bridges** using Hyperlane and Cosmos.
-- Leveraging **AI &amp; ML** tools to audit smart contracts and detect vulnerabilities.
+- Leveraging **AI & ML** tools to audit smart contracts and detect vulnerabilities.
 
-## 🤝 Let’s Connect
-
-Feel free to reach out for collaboration or a chat about Web3, backend or front‑end tech.
-
-- **LinkedIn:** [YourName](#)  – connect with me (replace `#` with your profile link)
-- **Website:** [your‑site.com](#)  – portfolio & blog
-- **Email:** `youremail@example.com` – drop me a line
-
----
+<!-- Removed the “Let’s Connect” section as per request -->
 
 <sub>_This README was built with ❤️ and is regularly updated via GitHub Actions.  Explore my repositories and let’s build something amazing together!_</sub>
