@@ -21,7 +21,7 @@
 
 ## 🧑‍💻 About Me
 
-I’m a senior blockchain developer who loves building decentralized systems and modern web applications.  I actively experiment with emerging protocols and enjoy bridging Web3 with full‑stack backend development.  My core languages are **Golang**, **Solidity**, **Rust** and **JavaScript** (MERN stack).
+I’m a senior blockchain developer who loves building decentralized systems and modern web applications.  I actively experiment with emerging protocols and enjoy bridging Web3 with full‑stack backend development.  My core languages are **Golang**, **Rust** and **JavaScript** (MERN stack).
 
 ## 🛠️ Tech & Tools
 
