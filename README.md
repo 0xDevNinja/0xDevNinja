@@ -29,10 +29,10 @@ Below are some of the primary technologies and tools I work with.
 
 ### Programming Languages
 
-<img title="Go" alt="Go" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> | <img title="Solidity" alt="Solidity" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" /> | <img title="Rust" alt="Rust" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" /> | <img title="JavaScript" alt="JavaScript" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+<img title="Go" alt="Go" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> | <img title="Rust" alt="Rust" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" /> | <img title="JavaScript" alt="JavaScript" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
 
-| **Go** | **Solidity** | **Rust** | **JavaScript/TypeScript** |
+| **Go** | **Rust** | **JavaScript/TypeScript** |
 
 ### Frameworks & Libraries
 
