@@ -11,7 +11,6 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <td valign="top"><b>Languages</b></td>
 <td>
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rust,go,solidity,ts,nodejs,python" alt="Languages" /></a>
-&nbsp;<img src="https://img.shields.io/badge/Move-4A90D9?style=for-the-badge&logoColor=white" alt="Move" height="48" />
 </td>
 </tr>
 <tr>
@@ -20,6 +19,7 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
 <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
 <img src="https://img.shields.io/badge/SUI-6FBCF0?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Move-4A90D9?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/Cosmos_SDK-2E3148?style=for-the-badge&logo=cosmos&logoColor=white" />
 <img src="https://img.shields.io/badge/Substrate-282828?style=for-the-badge&logo=parity-substrate&logoColor=white" />
 <img src="https://img.shields.io/badge/Filecoin-0090FF?style=for-the-badge&logo=filecoin&logoColor=white" />
@@ -31,23 +31,19 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,githubactions" alt="Cloud" /></a></td>
 </tr>
 <tr>
-<td valign="top"><b>Data&nbsp;&amp;&nbsp;Streaming</b></td>
-<td>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,redis,kafka" alt="Data" /></a>
-&nbsp;<img src="https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=nats.io&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white" height="48" />
-</td>
+<td valign="top"><b>Data</b></td>
+<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,redis,kafka" alt="Data" /></a></td>
 </tr>
 <tr>
-<td valign="top"><b>Observability&nbsp;&amp;&nbsp;Edge</b></td>
-<td>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nginx,prometheus,grafana" alt="Observability" /></a>
-&nbsp;<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" height="48" />
-</td>
+<td valign="top"><b>Observability</b></td>
+<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nginx,prometheus,grafana" alt="Observability" /></a></td>
 </tr>
 <tr>
-<td valign="top"><b>P2P&nbsp;&amp;&nbsp;Storage</b></td>
+<td valign="top"><b>Messaging&nbsp;&amp;&nbsp;P2P</b></td>
 <td>
+<img src="https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=nats.io&logoColor=white" />
+<img src="https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" />
 <img src="https://img.shields.io/badge/libp2p-2C2C2C?style=for-the-badge&logo=libp2p&logoColor=white" />
 <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white" />
 </td>
