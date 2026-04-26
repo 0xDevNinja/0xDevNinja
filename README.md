@@ -77,8 +77,8 @@ _Total commits across public + private repos. Auto-refreshed twice daily._
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **4,818** |
-| 2026 year-to-date | **1,219** |
+| Rolling 365 days | **5,288** |
+| 2026 year-to-date | **1,336** |
 <!-- END:activity -->
 
 </details>
