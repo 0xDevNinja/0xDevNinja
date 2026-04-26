@@ -89,7 +89,7 @@ _Total commits across public + private repos. Auto-refreshed twice daily._
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/0xDevNinja)
 
 <details open>
-<summary><b>📈 GitHub Stats</b></summary>
+<summary><b>📈 GitHub Stats</b> &nbsp;<sub><i>(click to collapse)</i></sub></summary>
 
 <br>
 
