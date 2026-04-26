@@ -24,6 +24,8 @@ jobs:
           base: "activity, community, repositories, metadata"
           plugin_languages: yes
           plugin_languages_limit: 6
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           # Skip the action's built-in commit step; we commit manually only on diff
           output_action: none
 
