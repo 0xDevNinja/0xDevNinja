@@ -30,7 +30,14 @@ jobs:
           git add README.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore(readme): refresh dynamic sections"
-            git push
+            exit 0
           fi
+          git commit -m "chore(readme): refresh dynamic sections"
+          # Retry with rebase to survive races with metrics/snake workflows
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push rejected, rebasing (attempt $i)..."
+            git pull --rebase origin main
+          done
+          echo "Push failed after 3 attempts." >&2
+          exit 1
