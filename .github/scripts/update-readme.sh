@@ -9,7 +9,7 @@ trap 'rm -rf "$TMPDIR"' EXIT
 # --- Projects: top 6 non-fork, non-profile public repos sorted by pushed_at ---
 gh api "users/$USER/repos?per_page=100&sort=pushed&type=owner" \
   | jq -r --arg user "$USER" '
-      [.[] | select(.fork == false and .name != $user and .private == false)][:6]
+      [.[] | select(.fork == false and .name != $user and .private == false)][:7]
       | map("| [\(.name)](\(.html_url)) | \((.description // "—") | gsub("\\|"; "\\|")) | \(.language // "—") | Active |")
       | .[]' > "$TMPDIR/projects_rows"
 
