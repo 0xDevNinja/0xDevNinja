@@ -1,6 +1,6 @@
 # Hey, I'm DevNinja 🥷
 
-I build settlement infrastructure and cross-chain systems across **Solidity, Rust, Go, TypeScript/Node, and Python** — deep in all of them, not just passing-familiar. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not writing Solidity or Move, I'm usually deep in backend systems design or experimenting with SUI's object-centric model.
+I build settlement infrastructure and cross-chain systems across **Solidity, Rust, Go, TypeScript/Node, and Python** — deep in all of them, not just passing-familiar. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not only writing Solidity or Move, I'm usually deep in backend systems design or experimenting with SUI's object-centric model.
 
 Currently: freelancing across Web3 — building solvers, smart contracts, and backend infra for protocols and teams who ship fast.
 
@@ -48,7 +48,20 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 **Infrastructure**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=google-cloud&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![NATS](https://img.shields.io/badge/NATS-27AAE1?style=flat&logo=nats.io&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat&logo=grpc&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat&logo=nginx&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
 ![libp2p](https://img.shields.io/badge/libp2p-2C2C2C?style=flat&logo=libp2p&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
 ## Connect
