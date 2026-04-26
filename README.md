@@ -1,68 +1,60 @@
-# Senior Blockchain developer
-<!-- <h1 align="center">Hi 👋 </h1> -->
+# Hey, I'm DevNinja 🥷
 
-<p align="center">
-  <!-- Banner generated via capsule‑render → https://capsule-render.vercel.app -->
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0%3A5A4680%2C100%3A2CA58D&height=200&section=header&text=DevNinja%20%F0%9F%92%A1&fontAlign=50&fontColor=ffffff&animation=fadeIn"
-    alt="DevNinja header"
-  />
-</p>
+I build settlement infrastructure and cross-chain systems in Rust and Go. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not writing Solidity or Move, I'm usually deep in backend systems design with the MERN stack or experimenting with SUI's object-centric model.
 
-<p align="center">
-  <!-- Profile views badge → https://shields.io -->
-  <a href="https://github.com/0xDevNinja">
-    <img
-      src="https://komarev.com/ghpvc/?username=0xDevNinja&label=Profile%20views&color=5A4680&style=flat"
-      alt="Profile views"
-    />
-  </a>
-</p>
+Currently: freelancing across Web3 — building solvers, smart contracts, and backend infra for protocols and teams who ship fast.
 
-## 🧑‍💻 About Me
+## What I'm Building
 
-I’m a senior blockchain developer who loves building decentralized systems and modern web applications.  I actively experiment with emerging protocols and enjoy bridging Web3 with full‑stack backend development.  My core languages are **Golang**, **Rust** and **JavaScript** (MERN stack).
+| Project | Description | Stack | Status |
+| --- | --- | --- | --- |
+| [titular](https://github.com/0xDevNinja/titular) | Commerce layer for AI agents — multi-chain launchpad (Base/Eth/Solana) with ACP v2, GAME planner, and Agent Console | Solidity, TypeScript | Active |
+| [cowSolver](https://github.com/0xDevNinja/cowSolver) | Cross-chain CoW Protocol solver with bridge integration and settlement optimization | Rust | Active |
+| [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | EVM state-vote store chain built on Cosmos SDK | Go | Active |
+| [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Reference implementation of NeuroMesh — peer-to-peer intelligence market on Substrate | Rust, Python | Active |
 
-## 🛠️ Tech & Tools
+## Technical Philosophy
 
-Below are some of the primary technologies and tools I work with.
+I optimize for cross-chain interoperability and on-chain settlement correctness — bridge invariants, solver pricing, and message-passing semantics get more attention than UI polish. Modules ship behind feature gates with property tests and threat models before mainnet. Security-first by default: every external call return value gets checked, every state change emits an event.
 
-### Programming Languages
+## Ecosystem Contributions
 
-<img title="Go" alt="Go" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> | <img title="Rust" alt="Rust" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" /> | <img title="JavaScript" alt="JavaScript" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+- **ChainSafe / Forest** — Contributed to the Rust implementation of the Filecoin node: FRC-0102 signing envelope, strict address validation in `forest-wallet`, MessagePool error surfacing, fallback blockstore with bitswap. [View PRs →](https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja)
+- **Hyperlane** — Contributed to the cross-chain messaging monorepo: `MAX_MESSAGE_BODY_BYTES` check on `MockMailbox`. [View PRs →](https://github.com/hyperlane-xyz/hyperlane-monorepo/pulls?q=author%3A0xDevNinja)
+- **CoW Protocol** — Built [cowSolver](https://github.com/0xDevNinja/cowSolver): a cross-chain solver with bridge integration and settlement optimization.
+- **TVL Labs / Axon** — AVS contracts for EigenLayer integration ([el-axon #1](https://github.com/tvl-labs/el-axon/pull/1)).
+- **Nervos / Force Bridge** — ETH-side contract audit suggestions ([force-bridge #386](https://github.com/nervosnetwork/force-bridge/pull/386)).
 
+## Stack
 
-| **Go** | **Rust** | **JavaScript/TypeScript** |
+**Languages**
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Move](https://img.shields.io/badge/Move-4A90D9?style=flat&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-### Frameworks & Libraries
+**Blockchain**
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat&logo=solana&logoColor=white)
+![SUI](https://img.shields.io/badge/SUI-6FBCF0?style=flat&logoColor=white)
+![Cosmos SDK](https://img.shields.io/badge/Cosmos_SDK-2E3148?style=flat&logo=cosmos&logoColor=white)
+![Substrate](https://img.shields.io/badge/Substrate-282828?style=flat&logo=parity-substrate&logoColor=white)
+![Filecoin](https://img.shields.io/badge/Filecoin-0090FF?style=flat&logo=filecoin&logoColor=white)
+![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat&logo=foundry&logoColor=white)
 
-<img title="Hardhat" alt="Hardhat" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hardhat/hardhat-original.svg" /> | <img title="Node.js" alt="Node.js" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> | <img title="React" alt="React" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> | <img title="Express" alt="Express" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /> | <img title="MongoDB" alt="MongoDB" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+**Infrastructure**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![libp2p](https://img.shields.io/badge/libp2p-2C2C2C?style=flat&logo=libp2p&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
+## Connect
 
-| **Hardhat** | **Node.js** | **React** | **Express** | **MongoDB** |
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmeetparmar22@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/0xDevNinja)
 
-### Infrastructure & DevOps
+## Stats
 
-<img title="Docker" alt="Docker" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" /> | <img title="Kubernetes" alt="Kubernetes" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" /> | <img title="Git" alt="Git" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /> | <img title="AWS" alt="AWS" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/aws/aws.png" /> | <img title="Google Cloud" alt="Google Cloud" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/google-cloud/google-cloud.png" />
-
-| **Docker** | **Kubernetes** | **Git** | **AWS** | **GCP** |
-
-
-
-
-## 🔊 I’m currently exploring freelance and blockchain opportunities focused on smart contract and backend Web2/Web3 development.
-
-
-
-### Profile Views
-
-<img src="https://count.getloli.com/get/@:0xDevNinja?theme=gelbooru-h" alt=":name" />
-
-<a href="https://blog.ljbmxsm.com">
-  <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api?username=0xDevNinja&show_icons=true&count_private=true&theme=radical" />
-</a>
-<a href="https://blog.ljbmxsm.com">
-  <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api/top-langs/?username=0xDevNinja&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
-</a>
-
-
+![DevNinja's GitHub stats](https://github-readme-stats.vercel.app/api?username=0xDevNinja&show_icons=true&hide=contribs&count_private=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=2CA58D&icon_color=5A4680&text_color=C9D1D9)
