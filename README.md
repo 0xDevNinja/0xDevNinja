@@ -73,12 +73,12 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b>📊 Recent Activity</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <!-- START:activity -->
-_Total commits across public + private repos. Auto-refreshed twice daily._
+_Unique commits authored across public + private repos, all branches. Auto-refreshed twice daily._
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **5,291** |
-| 2026 year-to-date | **1,339** |
+| Rolling 365 days | **871** |
+| 2026 year-to-date | **312** |
 <!-- END:activity -->
 
 </details>

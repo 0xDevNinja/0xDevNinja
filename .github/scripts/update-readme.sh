@@ -41,38 +41,15 @@ if [ ! -s "$TMPDIR/ecosystem.md" ]; then
   echo "_No external PRs found._" > "$TMPDIR/ecosystem.md"
 fi
 
-# --- Recent Activity: total commits (public + private) for two windows ---
-NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+# --- Recent Activity: true commit count via parallel bare clones (all branches) ---
 YEAR_NOW=$(date -u +"%Y")
-YTD_START="${YEAR_NOW}-01-01T00:00:00Z"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Portable "365 days ago" — try GNU first, fall back to BSD
-if YEAR_AGO=$(date -u -d "365 days ago" +"%Y-%m-%dT%H:%M:%SZ" 2>/dev/null); then
-  :
-else
-  YEAR_AGO=$(date -u -v-365d +"%Y-%m-%dT%H:%M:%SZ")
-fi
-
-read -r -d '' GQL <<'GRAPHQL' || true
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      totalCommitContributions
-      restrictedContributionsCount
-    }
-  }
-}
-GRAPHQL
-
-fetch_commits() {
-  local from=$1 to=$2
-  gh api graphql -f query="$GQL" -F login="$USER" -F from="$from" -F to="$to" \
-    | jq -r '.data.user.contributionsCollection
-              | (.totalCommitContributions + .restrictedContributionsCount)'
-}
-
-ROLLING=$(fetch_commits "$YEAR_AGO" "$NOW")
-YTD=$(fetch_commits "$YTD_START" "$NOW")
+# count-commits.sh outputs "<rolling_365d> <ytd>" by cloning every owned repo
+# (public + private) with --filter=blob:none and grepping git log across all branches.
+# Much more accurate than GraphQL contributionsCollection (which inflates ~6x by
+# counting branch-pushes rather than unique commits).
+read -r ROLLING YTD < <(USER_LOGIN="$USER" bash "$SCRIPT_DIR/count-commits.sh")
 
 # Format with thousands separator (locale-independent)
 fmt() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
@@ -80,7 +57,7 @@ ROLLING_FMT=$(fmt "$ROLLING")
 YTD_FMT=$(fmt "$YTD")
 
 cat > "$TMPDIR/activity.md" <<EOF
-_Total commits across public + private repos. Auto-refreshed twice daily._
+_Unique commits authored across public + private repos, all branches. Auto-refreshed twice daily._
 
 | Window | Commits |
 | --- | --- |
