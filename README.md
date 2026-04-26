@@ -88,12 +88,10 @@ _Total commits across public + private repos. Auto-refreshed twice daily._
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmit0x@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/0xDevNinja)
 
-<details>
-<summary><b>📈 GitHub Stats</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+<details open>
+<summary><b>📈 GitHub Stats</b></summary>
 
 <br>
-
-![DevNinja's GitHub stats](https://github-readme-stats.vercel.app/api?username=0xDevNinja&show_icons=true&hide=contribs&count_private=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=2CA58D&icon_color=5A4680&text_color=C9D1D9)
 
 ![Profile Metrics](https://raw.githubusercontent.com/0xDevNinja/0xDevNinja/main/github-metrics.svg)
 
