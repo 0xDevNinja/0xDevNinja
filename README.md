@@ -26,12 +26,6 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 
 **Messaging & P2P** &nbsp; <img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=nats.io&logoColor=white" /> <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" /> <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" /> <img src="https://img.shields.io/badge/libp2p-2C2C2C?style=flat-square&logo=libp2p&logoColor=white" /> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white" />
 
-## Currently Learning
-
-- **Stylus** — Rust smart contracts on Arbitrum (`rust-contracts-stylus-private` is my sandbox)
-- **Move on Sui** — object-centric resource model + Move Prover for invariant proofs
-- **MEV-Boost internals** — relay design, builder economics, cross-domain MEV
-
 ## What I'm Building
 
 <!-- START:projects -->
