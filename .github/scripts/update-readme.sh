@@ -7,16 +7,46 @@ TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
 
 # --- Projects: top 6 non-fork, non-profile public repos sorted by pushed_at ---
+# Get top 7 non-fork public repos sorted by pushed_at
 gh api "users/$USER/repos?per_page=100&sort=pushed&type=owner" \
   | jq -r --arg user "$USER" '
       [.[] | select(.fork == false and .name != $user and .private == false)][:7]
-      | map("| [\(.name)](\(.html_url)) | \((.description // "—") | gsub("\\|"; "\\|")) | \(.language // "—") | Active |")
-      | .[]' > "$TMPDIR/projects_rows"
+      | .[] | "\(.full_name)|\(.html_url)|\((.description // "—") | gsub("\\|"; "\\|"))"' \
+  > "$TMPDIR/repos_meta"
 
+# Resolve "Stack" via /languages endpoint with smart priority + tooling filter.
+# Priority order favors compiled / typed / blockchain langs over scripting & frontend.
+# Tooling/markup languages (HTML, CSS, Shell, etc) are filtered out completely.
+PRIORITY="Solidity Move Rust Go TypeScript Python Java Vyper Cairo Huff JavaScript Ruby PHP Swift Kotlin C C++"
+SKIP_LANGS="HTML CSS SCSS Shell Dockerfile Makefile Procfile MDX Nix HCL Roff Batchfile PowerShell"
+
+resolve_stack() {
+  local repo=$1
+  gh api "repos/$repo/languages" 2>/dev/null \
+    | jq -r --arg priority "$PRIORITY" --arg skip "$SKIP_LANGS" '
+        ($skip | split(" ")) as $skip_arr
+        | ($priority | split(" ")) as $prio_arr
+        | to_entries
+        | map(select(.key as $k | $skip_arr | index($k) | not))
+        | . as $langs
+        | ([$prio_arr[] as $p | $langs[] | select(.key == $p) | .key]
+            + ($langs | sort_by(-.value) | map(.key)))
+        | reduce .[] as $k ([]; if any(.[]; . == $k) then . else . + [$k] end)
+        | .[0:2]
+        | join(", ")
+      '
+}
+
+# Build project table rows
 {
   echo "| Project | Description | Stack | Status |"
   echo "| --- | --- | --- | --- |"
-  cat "$TMPDIR/projects_rows"
+  while IFS='|' read -r repo url desc; do
+    stack=$(resolve_stack "$repo")
+    [ -z "$stack" ] && stack="—"
+    name="${repo#*/}"
+    echo "| [$name]($url) | $desc | $stack | Active |"
+  done < "$TMPDIR/repos_meta"
 } > "$TMPDIR/projects.md"
 
 # --- Ecosystem: external PRs grouped by repo, with titles + repo links ---

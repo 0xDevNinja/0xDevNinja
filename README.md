@@ -31,12 +31,12 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
-| [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity | Active |
+| [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
-| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | JavaScript | Active |
+| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
 | [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
-| [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Peer-to-peer intelligence marketplace — Substrate appchain with subnet-based AI inference economics. | Python | Active |
+| [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Peer-to-peer intelligence marketplace — Substrate appchain with subnet-based AI inference economics. | Rust, TypeScript | Active |
 | [cowSolver](https://github.com/0xDevNinja/cowSolver) | Cross-chain CoW Protocol solver — automated settlement optimization with bridge integration | Rust | Active |
 <!-- END:projects -->
 
