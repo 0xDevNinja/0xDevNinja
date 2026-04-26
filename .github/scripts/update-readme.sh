@@ -19,7 +19,7 @@ gh api "users/$USER/repos?per_page=100&sort=pushed&type=owner" \
   cat "$TMPDIR/projects_rows"
 } > "$TMPDIR/projects.md"
 
-# --- Ecosystem: external PRs grouped by repo (top PR title + count) ---
+# --- Ecosystem: external PRs grouped by repo, with titles + repo links ---
 gh search prs --author="$USER" --limit=100 --json repository,title,url,state \
   | jq -r --arg user "$USER" '
       [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
@@ -27,15 +27,26 @@ gh search prs --author="$USER" --limit=100 --json repository,title,url,state \
       | map({
           repo: .[0].repository.nameWithOwner,
           count: length,
-          prs: [.[] | "[#" + (.url | split("/") | .[-1]) + "](" + .url + ")"]
+          prs: [.[] | {
+            num: (.url | split("/") | .[-1]),
+            url: .url,
+            title: .title,
+            state: .state
+          }]
         })
       | sort_by(-.count)
       | map(
-          "- **" + .repo + "** — "
-          + (.prs | join(" · "))
-          + " (" + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end) + ")"
+          "<details open>\n"
+          + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
+            + (.repo | gsub("/"; " / "))
+          + "</a></b> &middot; "
+          + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
+          + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">view all →</a>"
+          + "</summary>\n\n"
+          + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
+          + "\n\n</details>"
         )
-      | .[]' > "$TMPDIR/ecosystem.md"
+      | join("\n\n")' > "$TMPDIR/ecosystem.md"
 
 if [ ! -s "$TMPDIR/ecosystem.md" ]; then
   echo "_No external PRs found._" > "$TMPDIR/ecosystem.md"

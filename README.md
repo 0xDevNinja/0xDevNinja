@@ -51,11 +51,43 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 ## Ecosystem Contributions
 
 <!-- START:ecosystem -->
-- **ChainSafe/forest** — [#6968](https://github.com/ChainSafe/forest/pull/6968) · [#6967](https://github.com/ChainSafe/forest/pull/6967) · [#6966](https://github.com/ChainSafe/forest/pull/6966) · [#6395](https://github.com/ChainSafe/forest/pull/6395) (4 PRs)
-- **hyperlane-xyz/hyperlane-monorepo** — [#1799](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) (1 PR)
-- **nervosnetwork/force-bridge** — [#386](https://github.com/nervosnetwork/force-bridge/pull/386) (1 PR)
-- **tc39/tc39.github.io** — [#660](https://github.com/tc39/tc39.github.io/pull/660) (1 PR)
-- **tvl-labs/el-axon** — [#1](https://github.com/tvl-labs/el-axon/pull/1) (1 PR)
+<details open>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 4 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
+- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
+- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/hyperlane-xyz/hyperlane-monorepo">hyperlane-xyz / hyperlane-monorepo</a></b> &middot; 1 PR &middot; <a href="https://github.com/hyperlane-xyz/hyperlane-monorepo/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1799`](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) — adding MAX_MESSAGE_BODY_BYTES check to MockMailbox
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/nervosnetwork/force-bridge">nervosnetwork / force-bridge</a></b> &middot; 1 PR &middot; <a href="https://github.com/nervosnetwork/force-bridge/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#386`](https://github.com/nervosnetwork/force-bridge/pull/386) — Force Bridge Eth contracts audit-suggestions
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 1 PR &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/tvl-labs/el-axon">tvl-labs / el-axon</a></b> &middot; 1 PR &middot; <a href="https://github.com/tvl-labs/el-axon/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1`](https://github.com/tvl-labs/el-axon/pull/1) — Feat: Axon AVS Contracts 
+
+</details>
 <!-- END:ecosystem -->
 
 <details>
@@ -66,8 +98,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **879** |
-| 2026 year-to-date | **320** |
+| Rolling 365 days | **881** |
+| 2026 year-to-date | **322** |
 <!-- END:activity -->
 
 </details>
