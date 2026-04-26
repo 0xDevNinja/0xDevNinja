@@ -33,11 +33,12 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 ## Recent Activity
 
 <!-- START:activity -->
-- `2026-04-26` · commit [docs(readme): rewrite profile with project table, ecosystem PRs, minimal stats](https://github.com/0xDevNinja/0xDevNinja/commit/6354f135303711dfc8d8074ed52772d97dcc0404) in `0xDevNinja/0xDevNinja`
-- `2026-04-26` · commit [chore(funding): add github sponsors config](https://github.com/0xDevNinja/0xDevNinja/commit/54ea5e0430b45fd4c015a9a3cb5185277b0259f8) in `0xDevNinja/0xDevNinja`
-- `2026-04-26` · commit [ci(metrics): add daily profile metrics workflow](https://github.com/0xDevNinja/0xDevNinja/commit/31f47220f71b5e826e3da55bf6daef476c74a24a) in `0xDevNinja/0xDevNinja`
-- `2026-04-26` · commit [docs(readme): update email and expand language depth claim](https://github.com/0xDevNinja/0xDevNinja/commit/784a0ee41d35bee561debc2351ea132573c14399) in `0xDevNinja/0xDevNinja`
-- `2026-04-26` · commit [docs(readme): expand infra stack](https://github.com/0xDevNinja/0xDevNinja/commit/2e6e3072b422e82f72f83ba0cb254207c7ad5e74) in `0xDevNinja/0xDevNinja`
+_Total commits across public + private repos. Auto-refreshed twice daily._
+
+| Window | Commits |
+| --- | --- |
+| Rolling 365 days | **1,159** |
+| 2026 year-to-date | **1,017** |
 <!-- END:activity -->
 
 ## Stack

@@ -16,7 +16,7 @@ jobs:
 
       - name: Refresh dynamic sections
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: bash .github/scripts/update-readme.sh
 
       - name: Commit changes
