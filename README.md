@@ -88,8 +88,8 @@ _Total commits across public + private repos. Auto-refreshed twice daily._
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmit0x@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/0xDevNinja)
 
-<details open>
-<summary><b>📈 GitHub Stats</b> &nbsp;<sub><i>(click to collapse)</i></sub></summary>
+<details>
+<summary><b>📈 GitHub Stats</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <br>
 
