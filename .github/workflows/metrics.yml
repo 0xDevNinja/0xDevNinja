@@ -2,7 +2,7 @@ name: Profile Metrics
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '30 3 * * *'  # 09:00 IST (UTC+5:30) daily
   workflow_dispatch:
 
 jobs:
