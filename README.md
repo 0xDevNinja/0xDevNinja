@@ -18,17 +18,64 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 
 ## Stack
 
-**Languages** &nbsp; <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rust,go,solidity,ts,nodejs,python,bash,lua,mysql,cpp&perline=14" alt="Languages" height="36" /></a>
-
-**Infra & Data** &nbsp; <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,cloudflare,postgres,mongodb,redis,kafka,nginx,prometheus,grafana,githubactions&perline=14" alt="Infra" height="36" /></a>
-
-**DevOps & Secrets** &nbsp; <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" /> <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" /> <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" /> <img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" />
-
-**Blockchain** &nbsp; <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" /> <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" /> <img src="https://img.shields.io/badge/SUI-6FBCF0?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Move-4A90D9?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Cosmos-2E3148?style=flat-square&logo=cosmos&logoColor=white" /> <img src="https://img.shields.io/badge/Substrate-282828?style=flat-square&logo=parity-substrate&logoColor=white" /> <img src="https://img.shields.io/badge/Filecoin-0090FF?style=flat-square&logo=filecoin&logoColor=white" /> <img src="https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=foundry&logoColor=white" /> <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/Anchor-512BD4?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Viem-FFC517?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/Slither-2C5282?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/The_Graph-0C0A1C?style=flat-square&logo=thegraph&logoColor=white" />
-
-**Frameworks** &nbsp; <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Tokio-1A1A1A?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Axum-C75D27?style=flat-square&logoColor=white" />
-
-**Messaging & P2P** &nbsp; <img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=nats.io&logoColor=white" /> <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" /> <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" /> <img src="https://img.shields.io/badge/libp2p-2C2C2C?style=flat-square&logo=libp2p&logoColor=white" /> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white" />
+<table>
+<tr>
+<td width="180" valign="middle"><b>Languages</b></td>
+<td valign="middle"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rust,go,solidity,ts,nodejs,python,bash,lua,mysql,cpp&perline=14" alt="Languages" height="36" /></a></td>
+</tr>
+<tr>
+<td width="180" valign="middle"><b>Infra &amp; Data</b></td>
+<td valign="middle"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,cloudflare,postgres,mongodb,redis,kafka,nginx,prometheus,grafana,githubactions&perline=14" alt="Infra" height="36" /></a></td>
+</tr>
+<tr>
+<td width="180" valign="middle"><b>DevOps &amp; Secrets</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+<img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" />
+<img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" />
+</td>
+</tr>
+<tr>
+<td width="180" valign="middle"><b>Blockchain</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" />
+<img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" />
+<img src="https://img.shields.io/badge/SUI-6FBCF0?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Move-4A90D9?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Cosmos-2E3148?style=flat-square&logo=cosmos&logoColor=white" />
+<img src="https://img.shields.io/badge/Substrate-282828?style=flat-square&logo=parity-substrate&logoColor=white" />
+<img src="https://img.shields.io/badge/Filecoin-0090FF?style=flat-square&logo=filecoin&logoColor=white" />
+<img src="https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=foundry&logoColor=white" />
+<img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logoColor=black" />
+<img src="https://img.shields.io/badge/Anchor-512BD4?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Viem-FFC517?style=flat-square&logoColor=black" />
+<img src="https://img.shields.io/badge/Slither-2C5282?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/The_Graph-0C0A1C?style=flat-square&logo=thegraph&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td width="180" valign="middle"><b>Frameworks</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Tokio-1A1A1A?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Axum-C75D27?style=flat-square&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td width="180" valign="middle"><b>Messaging &amp; P2P</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=nats.io&logoColor=white" />
+<img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" />
+<img src="https://img.shields.io/badge/libp2p-2C2C2C?style=flat-square&logo=libp2p&logoColor=white" />
+<img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white" />
+</td>
+</tr>
+</table>
 
 ## What I'm Building
 
