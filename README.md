@@ -1,6 +1,6 @@
 # Hey, I'm DevNinja 🥷
 
-I build settlement infrastructure and cross-chain systems in Rust and Go. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not writing Solidity or Move, I'm usually deep in backend systems design with the MERN stack or experimenting with SUI's object-centric model.
+I build settlement infrastructure and cross-chain systems across **Solidity, Rust, Go, TypeScript/Node, and Python** — deep in all of them, not just passing-familiar. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not writing Solidity or Move, I'm usually deep in backend systems design or experimenting with SUI's object-centric model.
 
 Currently: freelancing across Web3 — building solvers, smart contracts, and backend infra for protocols and teams who ship fast.
 
@@ -32,6 +32,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Move](https://img.shields.io/badge/Move-4A90D9?style=flat&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
@@ -52,7 +53,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 ## Connect
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmeetparmar22@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmit0x@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/0xDevNinja)
 
 ## Stats
