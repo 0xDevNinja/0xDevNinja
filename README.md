@@ -6,12 +6,16 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 
 ## What I'm Building
 
+<!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
-| [titular](https://github.com/0xDevNinja/titular) | Commerce layer for AI agents — multi-chain launchpad (Base/Eth/Solana) with ACP v2, GAME planner, and Agent Console | Solidity, TypeScript | Active |
-| [cowSolver](https://github.com/0xDevNinja/cowSolver) | Cross-chain CoW Protocol solver with bridge integration and settlement optimization | Rust | Active |
-| [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | EVM state-vote store chain built on Cosmos SDK | Go | Active |
-| [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Reference implementation of NeuroMesh — peer-to-peer intelligence market on Substrate | Rust, Python | Active |
+| [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity | Active |
+| [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
+| [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
+| [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Peer-to-peer intelligence marketplace — Substrate appchain with subnet-based AI inference economics. | Python | Active |
+| [cowSolver](https://github.com/0xDevNinja/cowSolver) | Cross-chain CoW Protocol solver — automated settlement optimization with bridge integration | Rust | Active |
+| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity | Active |
+<!-- END:projects -->
 
 ## Technical Philosophy
 
@@ -19,11 +23,22 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 ## Ecosystem Contributions
 
-- **ChainSafe / Forest** — Contributed to the Rust implementation of the Filecoin node: FRC-0102 signing envelope, strict address validation in `forest-wallet`, MessagePool error surfacing, fallback blockstore with bitswap. [View PRs →](https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja)
-- **Hyperlane** — Contributed to the cross-chain messaging monorepo: `MAX_MESSAGE_BODY_BYTES` check on `MockMailbox`. [View PRs →](https://github.com/hyperlane-xyz/hyperlane-monorepo/pulls?q=author%3A0xDevNinja)
-- **CoW Protocol** — Built [cowSolver](https://github.com/0xDevNinja/cowSolver): a cross-chain solver with bridge integration and settlement optimization.
-- **TVL Labs / Axon** — AVS contracts for EigenLayer integration ([el-axon #1](https://github.com/tvl-labs/el-axon/pull/1)).
-- **Nervos / Force Bridge** — ETH-side contract audit suggestions ([force-bridge #386](https://github.com/nervosnetwork/force-bridge/pull/386)).
+<!-- START:ecosystem -->
+- **ChainSafe/forest** — [#6968](https://github.com/ChainSafe/forest/pull/6968) · [#6967](https://github.com/ChainSafe/forest/pull/6967) · [#6966](https://github.com/ChainSafe/forest/pull/6966) · [#6395](https://github.com/ChainSafe/forest/pull/6395) (4 PRs)
+- **hyperlane-xyz/hyperlane-monorepo** — [#1799](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) (1 PR)
+- **nervosnetwork/force-bridge** — [#386](https://github.com/nervosnetwork/force-bridge/pull/386) (1 PR)
+- **tvl-labs/el-axon** — [#1](https://github.com/tvl-labs/el-axon/pull/1) (1 PR)
+<!-- END:ecosystem -->
+
+## Recent Activity
+
+<!-- START:activity -->
+- `2026-04-26` · commit [docs(readme): rewrite profile with project table, ecosystem PRs, minimal stats](https://github.com/0xDevNinja/0xDevNinja/commit/6354f135303711dfc8d8074ed52772d97dcc0404) in `0xDevNinja/0xDevNinja`
+- `2026-04-26` · commit [chore(funding): add github sponsors config](https://github.com/0xDevNinja/0xDevNinja/commit/54ea5e0430b45fd4c015a9a3cb5185277b0259f8) in `0xDevNinja/0xDevNinja`
+- `2026-04-26` · commit [ci(metrics): add daily profile metrics workflow](https://github.com/0xDevNinja/0xDevNinja/commit/31f47220f71b5e826e3da55bf6daef476c74a24a) in `0xDevNinja/0xDevNinja`
+- `2026-04-26` · commit [docs(readme): update email and expand language depth claim](https://github.com/0xDevNinja/0xDevNinja/commit/784a0ee41d35bee561debc2351ea132573c14399) in `0xDevNinja/0xDevNinja`
+- `2026-04-26` · commit [docs(readme): expand infra stack](https://github.com/0xDevNinja/0xDevNinja/commit/2e6e3072b422e82f72f83ba0cb254207c7ad5e74) in `0xDevNinja/0xDevNinja`
+<!-- END:activity -->
 
 ## Stack
 
