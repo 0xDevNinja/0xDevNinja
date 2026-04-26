@@ -30,7 +30,8 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - **tvl-labs/el-axon** — [#1](https://github.com/tvl-labs/el-axon/pull/1) (1 PR)
 <!-- END:ecosystem -->
 
-## Recent Activity
+<details>
+<summary><b>📊 Recent Activity</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <!-- START:activity -->
 _Total commits across public + private repos. Auto-refreshed twice daily._
@@ -40,6 +41,8 @@ _Total commits across public + private repos. Auto-refreshed twice daily._
 | Rolling 365 days | **1,160** |
 | 2026 year-to-date | **1,018** |
 <!-- END:activity -->
+
+</details>
 
 ## Stack
 
@@ -85,6 +88,11 @@ _Total commits across public + private repos. Auto-refreshed twice daily._
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmit0x@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/0xDevNinja)
 
-## Stats
+<details>
+<summary><b>📈 GitHub Stats</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+
+<br>
 
 ![DevNinja's GitHub stats](https://github-readme-stats.vercel.app/api?username=0xDevNinja&show_icons=true&hide=contribs&count_private=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=2CA58D&icon_color=5A4680&text_color=C9D1D9)
+
+</details>
