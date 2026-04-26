@@ -1,6 +1,6 @@
 # Hey, I'm DevNinja 🥷
 
-I build settlement infrastructure and cross-chain systems across **Solidity, Rust, Go, TypeScript/Node, and Python** — deep in all of them, not just passing-familiar. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not only writing Solidity or Move, I'm usually deep in backend systems design or experimenting with SUI's object-centric model.
+I build settlement infrastructure and cross-chain systems across **Solidity, Rust, Go, TypeScript/Node, and Python** — **deep in all of them, not just passing-familiar**. Over the past few years I've contributed to protocols like CoW Protocol, Filecoin (via ChainSafe's Forest), and Hyperlane's cross-chain messaging stack. I care about code that's auditable, deterministic, and built to survive adversarial environments — which is most of Web3. When I'm not only writing Solidity or Move, I'm usually deep in backend systems design or experimenting with SUI's object-centric model.
 
 Currently: freelancing across Web3 — building solvers, smart contracts, and backend infra for protocols and teams who ship fast.
 
@@ -58,7 +58,7 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 
 ## Technical Philosophy
 
-I optimize for cross-chain interoperability and on-chain settlement correctness — bridge invariants, solver pricing, and message-passing semantics get more attention than UI polish. Modules ship behind feature gates with property tests and threat models before mainnet. Security-first by default: every external call return value gets checked, every state change emits an event.
+I optimize for cross-chain interoperability and on-chain settlement correctness — bridge invariants, solver pricing, and message-passing semantics get more attention than UI polish. Modules ship behind feature gates with property tests and threat models before mainnet. **Security-first by default**: every external call return value gets checked, every state change emits an event.
 
 ## Ecosystem Contributions
 
