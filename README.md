@@ -54,6 +54,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - **ChainSafe/forest** — [#6968](https://github.com/ChainSafe/forest/pull/6968) · [#6967](https://github.com/ChainSafe/forest/pull/6967) · [#6966](https://github.com/ChainSafe/forest/pull/6966) · [#6395](https://github.com/ChainSafe/forest/pull/6395) (4 PRs)
 - **hyperlane-xyz/hyperlane-monorepo** — [#1799](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) (1 PR)
 - **nervosnetwork/force-bridge** — [#386](https://github.com/nervosnetwork/force-bridge/pull/386) (1 PR)
+- **tc39/tc39.github.io** — [#660](https://github.com/tc39/tc39.github.io/pull/660) (1 PR)
 - **tvl-labs/el-axon** — [#1](https://github.com/tvl-labs/el-axon/pull/1) (1 PR)
 <!-- END:ecosystem -->
 
@@ -65,8 +66,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **878** |
-| 2026 year-to-date | **319** |
+| Rolling 365 days | **879** |
+| 2026 year-to-date | **320** |
 <!-- END:activity -->
 
 </details>
