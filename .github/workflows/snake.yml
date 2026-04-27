@@ -1,6 +1,6 @@
 name: Generate Snake Animation
 on:
-  schedule: [{ cron: "0 * * * *" }]
+  schedule: [{ cron: "7 * * * *" }]  # offset to :07 to dodge top-of-hour queue contention
   workflow_dispatch:
 jobs:
   build:

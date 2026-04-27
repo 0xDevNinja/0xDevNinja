@@ -2,7 +2,7 @@ name: Profile Metrics
 
 on:
   schedule:
-    - cron: '30 3 * * *'  # 09:00 IST (UTC+5:30) daily
+    - cron: '13 3 * * *'  # 08:43 IST daily — odd minute to dodge cron queue contention
   workflow_dispatch:
 
 jobs:

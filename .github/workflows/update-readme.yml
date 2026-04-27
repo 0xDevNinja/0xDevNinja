@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '30 3,15 * * *'  # 09:00 + 21:00 IST (UTC+5:30)
+    - cron: '17 3,15 * * *'  # 08:47 + 20:47 IST — odd minute to dodge cron queue contention
   workflow_dispatch:
 
 permissions:
