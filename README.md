@@ -103,7 +103,34 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 ## Ecosystem Contributions
 
 <!-- START:ecosystem -->
+<details open>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 5 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1021`](https://github.com/Tracer-Cloud/opensre/pull/1021) — test(utils): add direct unit tests for ingest_delivery
+- [`#1003`](https://github.com/Tracer-Cloud/opensre/pull/1003) — test(tools): add unit tests for the four GitLab tools
+- [`#1002`](https://github.com/Tracer-Cloud/opensre/pull/1002) — docs(tests): correct FileNotFoundError example message in tests/AGENTS.md
+- [`#999`](https://github.com/Tracer-Cloud/opensre/pull/999) — docs(azure-monitor): add Azure Monitor integration guide
+- [`#990`](https://github.com/Tracer-Cloud/opensre/pull/990) — fix(eks): forward stored AWS integration credentials into build_k8s_clients
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
+- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
+- [`#661`](https://github.com/tc39/tc39.github.io/pull/661) — fix #300, extract language icon and remove stray copyright
+- [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
+
+</details>
 <!-- END:ecosystem -->
 
 <details>
@@ -114,8 +141,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,001** |
-| 2026 year-to-date | **423** |
+| Rolling 365 days | **1,010** |
+| 2026 year-to-date | **435** |
 <!-- END:activity -->
 
 </details>
