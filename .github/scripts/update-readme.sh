@@ -50,7 +50,9 @@ resolve_stack() {
 } > "$TMPDIR/projects.md"
 
 # --- Ecosystem: external PRs grouped by repo, with titles + repo links ---
-gh search prs --author="$USER" --limit=100 --json repository,title,url,state \
+# Exclude own-repo PRs at search time via `-user:$USER` so the 100-result cap
+# isn't burned on self-authored PRs in personal repos.
+gh search prs --author="$USER" --limit=100 --json repository,title,url,state -- "-user:$USER" \
   | jq -r --arg user "$USER" '
       [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
       | group_by(.repository.nameWithOwner)
