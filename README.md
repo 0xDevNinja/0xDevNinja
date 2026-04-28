@@ -83,8 +83,8 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
 | [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
-| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
+| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
 | [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
 | [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Peer-to-peer intelligence marketplace — Substrate appchain with subnet-based AI inference economics. | Rust, TypeScript | Active |
@@ -115,15 +115,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
-- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
-
-</details>
-
-<details open>
 <summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
@@ -141,8 +132,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,016** |
-| 2026 year-to-date | **438** |
+| Rolling 365 days | **5,245** |
+| 2026 year-to-date | **1,495** |
 <!-- END:activity -->
 
 </details>
