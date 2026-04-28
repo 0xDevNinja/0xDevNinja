@@ -82,8 +82,8 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
-| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
+| [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
 | [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
@@ -141,8 +141,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,010** |
-| 2026 year-to-date | **435** |
+| Rolling 365 days | **1,016** |
+| 2026 year-to-date | **438** |
 <!-- END:activity -->
 
 </details>
