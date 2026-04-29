@@ -80,8 +80,8 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
-| [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
+| [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
 | [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
@@ -132,6 +132,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/hyperlane-xyz/hyperlane-monorepo">hyperlane-xyz / hyperlane-monorepo</a></b> &middot; 1 PR &middot; <a href="https://github.com/hyperlane-xyz/hyperlane-monorepo/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1799`](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) — adding MAX_MESSAGE_BODY_BYTES check to MockMailbox
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/nervosnetwork/force-bridge">nervosnetwork / force-bridge</a></b> &middot; 1 PR &middot; <a href="https://github.com/nervosnetwork/force-bridge/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#386`](https://github.com/nervosnetwork/force-bridge/pull/386) — Force Bridge Eth contracts audit-suggestions
@@ -154,8 +161,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,544** |
-| 2026 year-to-date | **524** |
+| Rolling 365 days | **1,607** |
+| 2026 year-to-date | **589** |
 <!-- END:activity -->
 
 </details>
