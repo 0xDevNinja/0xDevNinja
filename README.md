@@ -149,9 +149,4 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 ![Profile Metrics](https://raw.githubusercontent.com/0xDevNinja/0xDevNinja/main/github-metrics.svg)
 
-<br>
-
-<!-- WakaTime: requires WakaTime account + WAKATIME_API_KEY secret. Once set up, this card will populate. -->
-![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=0xDevNinja&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=2CA58D&text_color=C9D1D9&layout=compact)
-
 </details>
