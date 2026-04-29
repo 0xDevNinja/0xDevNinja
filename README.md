@@ -132,6 +132,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/nervosnetwork/force-bridge">nervosnetwork / force-bridge</a></b> &middot; 1 PR &middot; <a href="https://github.com/nervosnetwork/force-bridge/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#386`](https://github.com/nervosnetwork/force-bridge/pull/386) — Force Bridge Eth contracts audit-suggestions
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/tvl-labs/el-axon">tvl-labs / el-axon</a></b> &middot; 1 PR &middot; <a href="https://github.com/tvl-labs/el-axon/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1`](https://github.com/tvl-labs/el-axon/pull/1) — Feat: Axon AVS Contracts 
@@ -147,8 +154,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,542** |
-| 2026 year-to-date | **521** |
+| Rolling 365 days | **1,544** |
+| 2026 year-to-date | **524** |
 <!-- END:activity -->
 
 </details>
