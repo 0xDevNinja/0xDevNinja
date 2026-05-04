@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 5 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 6 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
 - [`#1021`](https://github.com/Tracer-Cloud/opensre/pull/1021) — test(utils): add direct unit tests for ingest_delivery
 - [`#1003`](https://github.com/Tracer-Cloud/opensre/pull/1003) — test(tools): add unit tests for the four GitLab tools
 - [`#1002`](https://github.com/Tracer-Cloud/opensre/pull/1002) — docs(tests): correct FileNotFoundError example message in tests/AGENTS.md
@@ -178,7 +179,7 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 | Window | Commits |
 | --- | --- |
 | Rolling 365 days | **1,589** |
-| 2026 year-to-date | **616** |
+| 2026 year-to-date | **617** |
 <!-- END:activity -->
 
 </details>
