@@ -114,21 +114,23 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 5 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
+- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
+- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
+- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
+- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 4 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
 - [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
 - [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
 - [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
-- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
-- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
 
 </details>
 
@@ -178,7 +180,7 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,586** |
+| Rolling 365 days | **1,585** |
 | 2026 year-to-date | **621** |
 <!-- END:activity -->
 
