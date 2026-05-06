@@ -102,6 +102,18 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 6 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
+- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
+- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
+- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
+- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
+- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 6 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
@@ -110,17 +122,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#1002`](https://github.com/Tracer-Cloud/opensre/pull/1002) — docs(tests): correct FileNotFoundError example message in tests/AGENTS.md
 - [`#999`](https://github.com/Tracer-Cloud/opensre/pull/999) — docs(azure-monitor): add Azure Monitor integration guide
 - [`#990`](https://github.com/Tracer-Cloud/opensre/pull/990) — fix(eks): forward stored AWS integration credentials into build_k8s_clients
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 5 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
-- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
-- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
-- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
-- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
 
 </details>
 
@@ -180,8 +181,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,579** |
-| 2026 year-to-date | **624** |
+| Rolling 365 days | **1,595** |
+| 2026 year-to-date | **639** |
 <!-- END:activity -->
 
 </details>
