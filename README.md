@@ -102,8 +102,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 6 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 8 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): drop tenant headers on API-key auth + refresh client on /reload
+- [`#21134`](https://github.com/NousResearch/hermes-agent/pull/21134) — fix(profile): honor renamed root alias in CLI/profile helpers
 - [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
 - [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
 - [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
@@ -114,8 +116,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 6 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 7 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1558`](https://github.com/Tracer-Cloud/opensre/pull/1558) — feat(sentry): tighten init config (Sentry coverage 1/5)
 - [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
 - [`#1021`](https://github.com/Tracer-Cloud/opensre/pull/1021) — test(utils): add direct unit tests for ingest_delivery
 - [`#1003`](https://github.com/Tracer-Cloud/opensre/pull/1003) — test(tools): add unit tests for the four GitLab tools
@@ -181,8 +184,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,689** |
-| 2026 year-to-date | **743** |
+| Rolling 365 days | **1,793** |
+| 2026 year-to-date | **846** |
 <!-- END:activity -->
 
 </details>
