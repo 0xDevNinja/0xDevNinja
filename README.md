@@ -148,6 +148,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 1 PR &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/cowprotocol/services">cowprotocol / services</a></b> &middot; 1 PR &middot; <a href="https://github.com/cowprotocol/services/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#4371`](https://github.com/cowprotocol/services/pull/4371) — Enforce EIP-7825 per-tx gas cap on settlement
@@ -185,7 +192,7 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 | Window | Commits |
 | --- | --- |
 | Rolling 365 days | **1,786** |
-| 2026 year-to-date | **848** |
+| 2026 year-to-date | **847** |
 <!-- END:activity -->
 
 </details>
