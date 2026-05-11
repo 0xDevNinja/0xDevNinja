@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 8 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 9 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
 - [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): drop tenant headers on API-key auth + refresh client on /reload
 - [`#21134`](https://github.com/NousResearch/hermes-agent/pull/21134) — fix(profile): honor renamed root alias in CLI/profile helpers
 - [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
@@ -116,8 +117,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 7 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 8 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1814`](https://github.com/Tracer-Cloud/opensre/pull/1814) — feat(sentry): init_sentry for missing entrypoints (Sentry coverage 3/5)
 - [`#1558`](https://github.com/Tracer-Cloud/opensre/pull/1558) — feat(sentry): tighten init config (Sentry coverage 1/5)
 - [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
 - [`#1021`](https://github.com/Tracer-Cloud/opensre/pull/1021) — test(utils): add direct unit tests for ingest_delivery
@@ -148,8 +150,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 1 PR &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
 
 </details>
@@ -191,8 +194,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,775** |
-| 2026 year-to-date | **862** |
+| Rolling 365 days | **1,789** |
+| 2026 year-to-date | **874** |
 <!-- END:activity -->
 
 </details>
