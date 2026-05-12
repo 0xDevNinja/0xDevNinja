@@ -50,9 +50,10 @@ resolve_stack() {
 } > "$TMPDIR/projects.md"
 
 # --- Ecosystem: external PRs grouped by repo, with titles + repo links ---
-# Exclude own-repo PRs at search time via `-user:$USER` so the 100-result cap
-# isn't burned on self-authored PRs in personal repos.
-gh search prs --author="$USER" --limit=100 --json repository,title,url,state -- "-user:$USER" \
+# Exclude own-repo PRs at search time via `-user:$USER` so the result budget
+# isn't burned on self-authored PRs in personal repos. `gh search` max --limit
+# is 1000; well above the realistic ceiling of external PRs/issues.
+gh search prs --author="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" \
   | jq -r --arg user "$USER" '
       [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
       | group_by(.repository.nameWithOwner)
@@ -82,6 +83,46 @@ gh search prs --author="$USER" --limit=100 --json repository,title,url,state -- 
 
 if [ ! -s "$TMPDIR/ecosystem.md" ]; then
   echo "_No external PRs found._" > "$TMPDIR/ecosystem.md"
+fi
+
+# --- Issues: external issues authored OR assigned, grouped by repo ---
+# Two search calls (author + assignee) merged + deduped by URL. Captures both
+# "issues I filed" and "issues I own" across every external repo. Drafts/PRs
+# excluded via is:issue qualifier (search API treats PRs as issues otherwise).
+{
+  gh search issues --author="$USER"   --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
+  gh search issues --assignee="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
+} | jq -sr --arg user "$USER" '
+      add
+      | unique_by(.url)
+      | [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
+      | group_by(.repository.nameWithOwner)
+      | map({
+          repo: .[0].repository.nameWithOwner,
+          count: length,
+          issues: [.[] | {
+            num: (.url | split("/") | .[-1]),
+            url: .url,
+            title: .title,
+            state: .state
+          }]
+        })
+      | sort_by(-.count)
+      | map(
+          "<details open>\n"
+          + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
+            + (.repo | gsub("/"; " / "))
+          + "</a></b> &middot; "
+          + (.count | tostring) + " issue" + (if .count > 1 then "s" else "" end)
+          + " &middot; <a href=\"https://github.com/" + .repo + "/issues?q=is%3Aissue+involves%3A" + $user + "\">view all →</a>"
+          + "</summary>\n\n"
+          + (.issues | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
+          + "\n\n</details>"
+        )
+      | join("\n\n")' > "$TMPDIR/issues.md"
+
+if [ ! -s "$TMPDIR/issues.md" ] || [ "$(cat "$TMPDIR/issues.md")" = '""' ]; then
+  echo "_No external issues found._" > "$TMPDIR/issues.md"
 fi
 
 # --- Recent Activity: true commit count via parallel bare clones (all branches) ---
@@ -114,7 +155,7 @@ import re, sys, pathlib
 readme_path, tmpdir = sys.argv[1], sys.argv[2]
 data = pathlib.Path(readme_path).read_text()
 
-for marker in ("projects", "ecosystem", "activity"):
+for marker in ("projects", "ecosystem", "issues", "activity"):
     content = pathlib.Path(f"{tmpdir}/{marker}.md").read_text().rstrip()
     pat = re.compile(rf"(<!-- START:{marker} -->).*?(<!-- END:{marker} -->)", re.DOTALL)
     data = pat.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", data)
