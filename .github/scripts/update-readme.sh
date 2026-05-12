@@ -85,13 +85,16 @@ if [ ! -s "$TMPDIR/ecosystem.md" ]; then
   echo "_No external PRs found._" > "$TMPDIR/ecosystem.md"
 fi
 
-# --- Issues: external issues authored OR assigned, grouped by repo ---
-# Two search calls (author + assignee) merged + deduped by URL. Captures both
-# "issues I filed" and "issues I own" across every external repo. Drafts/PRs
-# excluded via is:issue qualifier (search API treats PRs as issues otherwise).
+# --- Issues: external issues authored, assigned, OR @-mentioned, grouped per repo ---
+# Three search calls (author + assignee + mentions) merged + deduped by URL,
+# then clubbed into one card per repo. Captures: issues I filed, issues
+# officially assigned to me, and issues where I'm @-tagged in body/comments
+# (covers "asked to assign" cases). Excludes drive-by commenter noise.
+# is:issue qualifier prevents PRs leaking in (search API treats PRs as issues).
 {
   gh search issues --author="$USER"   --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
   gh search issues --assignee="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
+  gh search issues --mentions="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
 } | jq -sr --arg user "$USER" '
       add
       | unique_by(.url)
