@@ -137,37 +137,13 @@ render_issues() {
 render_issues open   "$TMPDIR/issues-open.md"
 render_issues closed "$TMPDIR/issues-closed.md"
 
-# --- Recent Activity: true commit count via parallel bare clones (all branches) ---
-YEAR_NOW=$(date -u +"%Y")
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# count-commits.sh outputs "<rolling_365d> <ytd>" by cloning every owned repo
-# (public + private) with --filter=blob:none and grepping git log across all branches.
-# Much more accurate than GraphQL contributionsCollection (which inflates ~6x by
-# counting branch-pushes rather than unique commits).
-read -r ROLLING YTD < <(USER_LOGIN="$USER" bash "$SCRIPT_DIR/count-commits.sh")
-
-# Format with thousands separator (locale-independent)
-fmt() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
-ROLLING_FMT=$(fmt "$ROLLING")
-YTD_FMT=$(fmt "$YTD")
-
-cat > "$TMPDIR/activity.md" <<EOF
-_Unique commits authored across public + private repos, all branches. Auto-refreshed twice daily._
-
-| Window | Commits |
-| --- | --- |
-| Rolling 365 days | **$ROLLING_FMT** |
-| ${YEAR_NOW} year-to-date | **$YTD_FMT** |
-EOF
-
 # --- Splice into README between markers ---
 python3 - "$README" "$TMPDIR" <<'PY'
 import re, sys, pathlib
 readme_path, tmpdir = sys.argv[1], sys.argv[2]
 data = pathlib.Path(readme_path).read_text()
 
-for marker in ("projects", "ecosystem", "issues-open", "issues-closed", "activity"):
+for marker in ("projects", "ecosystem", "issues-open", "issues-closed"):
     content = pathlib.Path(f"{tmpdir}/{marker}.md").read_text().rstrip()
     pat = re.compile(rf"(<!-- START:{marker} -->).*?(<!-- END:{marker} -->)", re.DOTALL)
     data = pat.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", data)

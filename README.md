@@ -254,20 +254,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 <!-- END:issues-closed -->
 
-<details>
-<summary><b>📊 Recent Activity</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
-
-<!-- START:activity -->
-_Unique commits authored across public + private repos, all branches. Auto-refreshed twice daily._
-
-| Window | Commits |
-| --- | --- |
-| Rolling 365 days | **1,789** |
-| 2026 year-to-date | **881** |
-<!-- END:activity -->
-
-</details>
-
 ## Connect
 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:manmit0x@gmail.com)
