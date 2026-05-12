@@ -194,8 +194,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,789** |
-| 2026 year-to-date | **874** |
+| Rolling 365 days | **1,785** |
+| 2026 year-to-date | **877** |
 <!-- END:activity -->
 
 </details>
