@@ -141,19 +141,20 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
+- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
+- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
 - [`#661`](https://github.com/tc39/tc39.github.io/pull/661) — fix #300, extract language icon and remove stray copyright
 - [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
-- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
 
 </details>
 
@@ -194,8 +195,8 @@ _Unique commits authored across public + private repos, all branches. Auto-refre
 
 | Window | Commits |
 | --- | --- |
-| Rolling 365 days | **1,785** |
-| 2026 year-to-date | **877** |
+| Rolling 365 days | **1,786** |
+| 2026 year-to-date | **878** |
 <!-- END:activity -->
 
 </details>
