@@ -117,8 +117,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 8 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 9 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1902`](https://github.com/Tracer-Cloud/opensre/pull/1902) — docs(readme): add Telegram to Communication integrations
 - [`#1814`](https://github.com/Tracer-Cloud/opensre/pull/1814) — feat(sentry): init_sentry for missing entrypoints (Sentry coverage 3/5)
 - [`#1558`](https://github.com/Tracer-Cloud/opensre/pull/1558) — feat(sentry): tighten init config (Sentry coverage 1/5)
 - [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
