@@ -85,20 +85,28 @@ if [ ! -s "$TMPDIR/ecosystem.md" ]; then
   echo "_No external PRs found._" > "$TMPDIR/ecosystem.md"
 fi
 
-# --- Issues: external issues authored, assigned, OR @-mentioned, grouped per repo ---
+# --- Issues: external issues authored, assigned, OR @-mentioned ---
 # Three search calls (author + assignee + mentions) merged + deduped by URL,
-# then clubbed into one card per repo. Captures: issues I filed, issues
-# officially assigned to me, and issues where I'm @-tagged in body/comments
-# (covers "asked to assign" cases). Excludes drive-by commenter noise.
+# fetched once and partitioned by state into open/closed subsections.
+# Captures: issues I filed, issues officially assigned to me, and issues where
+# I'm @-tagged in body/comments. Excludes drive-by commenter noise.
 # is:issue qualifier prevents PRs leaking in (search API treats PRs as issues).
 {
   gh search issues --author="$USER"   --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
   gh search issues --assignee="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
   gh search issues --mentions="$USER" --limit=1000 --json repository,title,url,state -- "-user:$USER" "is:issue"
-} | jq -sr --arg user "$USER" '
+} | jq -s --arg user "$USER" '
       add
       | unique_by(.url)
       | [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
+    ' > "$TMPDIR/issues_all.json"
+
+# Render one card-per-repo block for a given state. Cards collapsed by default
+# (<details> without `open`) so the section stays compact in the rendered view.
+render_issues() {
+  local state=$1 out=$2
+  jq -r --arg user "$USER" --arg state "$state" '
+      [.[] | select((.state | ascii_downcase) == $state)]
       | group_by(.repository.nameWithOwner)
       | map({
           repo: .[0].repository.nameWithOwner,
@@ -106,51 +114,28 @@ fi
           issues: [.[] | {
             num: (.url | split("/") | .[-1]),
             url: .url,
-            title: .title,
-            state: .state
+            title: .title
           }]
         })
       | sort_by(-.count)
       | map(
-          "<details open>\n"
+          "<details>\n"
           + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
             + (.repo | gsub("/"; " / "))
           + "</a></b> &middot; "
           + (.count | tostring) + " issue" + (if .count > 1 then "s" else "" end)
-          + " &middot; <a href=\"https://github.com/" + .repo + "/issues?q=is%3Aissue+involves%3A" + $user + "\">view all →</a>"
+          + " &middot; <a href=\"https://github.com/" + .repo + "/issues?q=is%3Aissue+is%3A" + $state + "+involves%3A" + $user + "\">view all →</a>"
           + "</summary>\n\n"
           + (.issues | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
           + "\n\n</details>"
         )
-      | join("\n\n")' > "$TMPDIR/issues.md"
+      | join("\n\n")
+    ' < "$TMPDIR/issues_all.json" > "$out"
+  [ -s "$out" ] || echo "_No ${state} issues._" > "$out"
+}
 
-if [ ! -s "$TMPDIR/issues.md" ] || [ "$(cat "$TMPDIR/issues.md")" = '""' ]; then
-  echo "_No external issues found._" > "$TMPDIR/issues.md"
-fi
-
-# --- Recent Activity: true commit count via parallel bare clones (all branches) ---
-YEAR_NOW=$(date -u +"%Y")
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# count-commits.sh outputs "<rolling_365d> <ytd>" by cloning every owned repo
-# (public + private) with --filter=blob:none and grepping git log across all branches.
-# Much more accurate than GraphQL contributionsCollection (which inflates ~6x by
-# counting branch-pushes rather than unique commits).
-read -r ROLLING YTD < <(USER_LOGIN="$USER" bash "$SCRIPT_DIR/count-commits.sh")
-
-# Format with thousands separator (locale-independent)
-fmt() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
-ROLLING_FMT=$(fmt "$ROLLING")
-YTD_FMT=$(fmt "$YTD")
-
-cat > "$TMPDIR/activity.md" <<EOF
-_Unique commits authored across public + private repos, all branches. Auto-refreshed twice daily._
-
-| Window | Commits |
-| --- | --- |
-| Rolling 365 days | **$ROLLING_FMT** |
-| ${YEAR_NOW} year-to-date | **$YTD_FMT** |
-EOF
+render_issues open   "$TMPDIR/issues-open.md"
+render_issues closed "$TMPDIR/issues-closed.md"
 
 # --- Splice into README between markers ---
 python3 - "$README" "$TMPDIR" <<'PY'
@@ -158,7 +143,7 @@ import re, sys, pathlib
 readme_path, tmpdir = sys.argv[1], sys.argv[2]
 data = pathlib.Path(readme_path).read_text()
 
-for marker in ("projects", "ecosystem", "issues", "activity"):
+for marker in ("projects", "ecosystem", "issues-open", "issues-closed"):
     content = pathlib.Path(f"{tmpdir}/{marker}.md").read_text().rstrip()
     pat = re.compile(rf"(<!-- START:{marker} -->).*?(<!-- END:{marker} -->)", re.DOTALL)
     data = pat.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", data)
