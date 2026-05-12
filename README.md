@@ -187,6 +187,55 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 <!-- END:ecosystem -->
 
+## Issues Filed & Owned
+
+<!-- START:issues -->
+<details open>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 6 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#4941`](https://github.com/ChainSafe/forest/issues/4941) — validate network definitions with `upgrades.json` 
+- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
+- [`#6334`](https://github.com/ChainSafe/forest/issues/6334) — Check integration with Protofire proxy
+- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
+- [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
+- [`#6505`](https://github.com/ChainSafe/forest/issues/6505) — Handle JoinSet task errors in test utility functions
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 5 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#1005`](https://github.com/Tracer-Cloud/opensre/issues/1005) — [FEATURE] : add docs for LLM APIs/CLI supported
+- [`#1014`](https://github.com/Tracer-Cloud/opensre/issues/1014) — [FEATURE] : add docs for telegram integration
+- [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
+- [`#993`](https://github.com/Tracer-Cloud/opensre/issues/993) — Add unit tests for GitLab tools (Commits, File, MRs, Pipelines)
+- [`#997`](https://github.com/Tracer-Cloud/opensre/issues/997) — Add Azure Monitor integration documentation (docs/azure-monitor.mdx)
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/MystenLabs/sui">MystenLabs / sui</a></b> &middot; 2 issues &middot; <a href="https://github.com/MystenLabs/sui/issues?q=is%3Aissue+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#19879`](https://github.com/MystenLabs/sui/issues/19879) — Sui Code Bug or Feature Request
+- [`#20607`](https://github.com/MystenLabs/sui/issues/20607) — Example not updated for Transaction_subscription in rust
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/hyperlane-xyz/hyperlane-monorepo">hyperlane-xyz / hyperlane-monorepo</a></b> &middot; 1 issue &middot; <a href="https://github.com/hyperlane-xyz/hyperlane-monorepo/issues?q=is%3Aissue+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#1798`](https://github.com/hyperlane-xyz/hyperlane-monorepo/issues/1798) — Missing MAX_MESSAGE_BODY_BYTES check in MockMailbox
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 1 issue &middot; <a href="https://github.com/o1-labs/mina-rust/issues?q=is%3Aissue+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#1260`](https://github.com/o1-labs/mina-rust/issues/1260) — Limit the usage of `std`, and rely on `core` as often as possible
+
+</details>
+<!-- END:issues -->
+
 <details>
 <summary><b>📊 Recent Activity</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
