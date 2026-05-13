@@ -160,6 +160,14 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 2 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
+- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/cowprotocol/services">cowprotocol / services</a></b> &middot; 1 PR &middot; <a href="https://github.com/cowprotocol/services/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#4371`](https://github.com/cowprotocol/services/pull/4371) — Enforce EIP-7825 per-tx gas cap on settlement
@@ -177,6 +185,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b><a href="https://github.com/nervosnetwork/force-bridge">nervosnetwork / force-bridge</a></b> &middot; 1 PR &middot; <a href="https://github.com/nervosnetwork/force-bridge/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#386`](https://github.com/nervosnetwork/force-bridge/pull/386) — Force Bridge Eth contracts audit-suggestions
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 1 PR &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#2208`](https://github.com/o1-labs/mina-rust/pull/2208) — chore(redux): prefer core/alloc over std
 
 </details>
 
@@ -204,9 +219,8 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 2 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 1 issue &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#1014`](https://github.com/Tracer-Cloud/opensre/issues/1014) — [FEATURE] : add docs for telegram integration
 - [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
 
 </details>
@@ -223,9 +237,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-closed -->
 <details>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 3 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 4 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1005`](https://github.com/Tracer-Cloud/opensre/issues/1005) — [FEATURE] : add docs for LLM APIs/CLI supported
+- [`#1014`](https://github.com/Tracer-Cloud/opensre/issues/1014) — [FEATURE] : add docs for telegram integration
 - [`#993`](https://github.com/Tracer-Cloud/opensre/issues/993) — Add unit tests for GitLab tools (Commits, File, MRs, Pipelines)
 - [`#997`](https://github.com/Tracer-Cloud/opensre/issues/997) — Add Azure Monitor integration documentation (docs/azure-monitor.mdx)
 
