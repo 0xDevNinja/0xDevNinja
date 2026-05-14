@@ -142,8 +142,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 4 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
 - [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
 - [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
