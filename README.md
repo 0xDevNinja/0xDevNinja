@@ -102,6 +102,22 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 10 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1982`](https://github.com/Tracer-Cloud/opensre/pull/1982) — fix(e2e): resolve repo root correctly in deploy helpers
+- [`#1902`](https://github.com/Tracer-Cloud/opensre/pull/1902) — docs(readme): add Telegram to Communication integrations
+- [`#1814`](https://github.com/Tracer-Cloud/opensre/pull/1814) — feat(sentry): init_sentry for missing entrypoints (Sentry coverage 3/5)
+- [`#1558`](https://github.com/Tracer-Cloud/opensre/pull/1558) — feat(sentry): tighten init config (Sentry coverage 1/5)
+- [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
+- [`#1021`](https://github.com/Tracer-Cloud/opensre/pull/1021) — test(utils): add direct unit tests for ingest_delivery
+- [`#1003`](https://github.com/Tracer-Cloud/opensre/pull/1003) — test(tools): add unit tests for the four GitLab tools
+- [`#1002`](https://github.com/Tracer-Cloud/opensre/pull/1002) — docs(tests): correct FileNotFoundError example message in tests/AGENTS.md
+- [`#999`](https://github.com/Tracer-Cloud/opensre/pull/999) — docs(azure-monitor): add Azure Monitor integration guide
+- [`#990`](https://github.com/Tracer-Cloud/opensre/pull/990) — fix(eks): forward stored AWS integration credentials into build_k8s_clients
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 9 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
@@ -113,21 +129,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
 - [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
 - [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 9 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#1902`](https://github.com/Tracer-Cloud/opensre/pull/1902) — docs(readme): add Telegram to Communication integrations
-- [`#1814`](https://github.com/Tracer-Cloud/opensre/pull/1814) — feat(sentry): init_sentry for missing entrypoints (Sentry coverage 3/5)
-- [`#1558`](https://github.com/Tracer-Cloud/opensre/pull/1558) — feat(sentry): tighten init config (Sentry coverage 1/5)
-- [`#1261`](https://github.com/Tracer-Cloud/opensre/pull/1261) — docs: add LLM providers reference page
-- [`#1021`](https://github.com/Tracer-Cloud/opensre/pull/1021) — test(utils): add direct unit tests for ingest_delivery
-- [`#1003`](https://github.com/Tracer-Cloud/opensre/pull/1003) — test(tools): add unit tests for the four GitLab tools
-- [`#1002`](https://github.com/Tracer-Cloud/opensre/pull/1002) — docs(tests): correct FileNotFoundError example message in tests/AGENTS.md
-- [`#999`](https://github.com/Tracer-Cloud/opensre/pull/999) — docs(azure-monitor): add Azure Monitor integration guide
-- [`#990`](https://github.com/Tracer-Cloud/opensre/pull/990) — fix(eks): forward stored AWS integration credentials into build_k8s_clients
 
 </details>
 
@@ -152,6 +153,16 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 4 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
+- [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex by originator + read 128KB for CC cwd
+- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
+- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
@@ -161,10 +172,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 2 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 2 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
-- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
+- [`#2209`](https://github.com/o1-labs/mina-rust/pull/2209) — chore(alloc-test): prefer core/alloc over std
+- [`#2208`](https://github.com/o1-labs/mina-rust/pull/2208) — chore(redux): prefer core/alloc over std
 
 </details>
 
@@ -186,13 +197,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b><a href="https://github.com/nervosnetwork/force-bridge">nervosnetwork / force-bridge</a></b> &middot; 1 PR &middot; <a href="https://github.com/nervosnetwork/force-bridge/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#386`](https://github.com/nervosnetwork/force-bridge/pull/386) — Force Bridge Eth contracts audit-suggestions
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 1 PR &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#2208`](https://github.com/o1-labs/mina-rust/pull/2208) — chore(redux): prefer core/alloc over std
 
 </details>
 
