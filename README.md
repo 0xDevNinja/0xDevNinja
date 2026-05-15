@@ -102,6 +102,22 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 10 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#26299`](https://github.com/NousResearch/hermes-agent/pull/26299) — fix(cli): tab-complete paths with embedded spaces
+- [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
+- [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): refresh client from env on /reload
+- [`#21134`](https://github.com/NousResearch/hermes-agent/pull/21134) — fix(profile): honor renamed root alias in CLI/profile helpers
+- [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
+- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
+- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
+- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
+- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
+- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 10 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1982`](https://github.com/Tracer-Cloud/opensre/pull/1982) — fix(e2e): resolve repo root correctly in deploy helpers
@@ -118,17 +134,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 9 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 5 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
-- [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): drop tenant headers on API-key auth + refresh client on /reload
-- [`#21134`](https://github.com/NousResearch/hermes-agent/pull/21134) — fix(profile): honor renamed root alias in CLI/profile helpers
-- [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
-- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
-- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
-- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
-- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
-- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
+- [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
+- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
+- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
+- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
+- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
 
 </details>
 
@@ -143,16 +155,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 4 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
-- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
-- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
-- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
-
-</details>
-
-<details open>
 <summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 4 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
@@ -163,19 +165,20 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 3 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#2210`](https://github.com/o1-labs/mina-rust/pull/2210) — chore(node-common): silence wasm32 build warnings in archive module
+- [`#2209`](https://github.com/o1-labs/mina-rust/pull/2209) — chore(alloc-test): prefer core/alloc over std
+- [`#2208`](https://github.com/o1-labs/mina-rust/pull/2208) — chore(redux): prefer core/alloc over std
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
 - [`#661`](https://github.com/tc39/tc39.github.io/pull/661) — fix #300, extract language icon and remove stray copyright
 - [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 2 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#2209`](https://github.com/o1-labs/mina-rust/pull/2209) — chore(alloc-test): prefer core/alloc over std
-- [`#2208`](https://github.com/o1-labs/mina-rust/pull/2208) — chore(redux): prefer core/alloc over std
 
 </details>
 
