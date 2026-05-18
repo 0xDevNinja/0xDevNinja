@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 10 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 11 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
 - [`#26299`](https://github.com/NousResearch/hermes-agent/pull/26299) — fix(cli): tab-complete paths with embedded spaces
 - [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
 - [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): refresh client from env on /reload
@@ -134,13 +135,25 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 5 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 6 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
 - [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
 - [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
 - [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
 - [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 5 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1582`](https://github.com/garrytan/gstack/pull/1582) — fix(supabase-provision): rewrite transaction/6543 -> session/5432 for new projects (#1301)
+- [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
+- [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex by originator + read 128KB for CC cwd
+- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
+- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
 
 </details>
 
@@ -151,16 +164,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
 - [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
 - [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 4 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
-- [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex by originator + read 128KB for CC cwd
-- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
-- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
 
 </details>
 
@@ -217,9 +220,8 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 4 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
 - [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 - [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
 - [`#6505`](https://github.com/ChainSafe/forest/issues/6505) — Handle JoinSet task errors in test utility functions
@@ -255,9 +257,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 2 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#4941`](https://github.com/ChainSafe/forest/issues/4941) — validate network definitions with `upgrades.json` 
+- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
 - [`#6334`](https://github.com/ChainSafe/forest/issues/6334) — Check integration with Protofire proxy
 
 </details>
