@@ -160,8 +160,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 4 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 5 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
 - [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
 - [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
 - [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
