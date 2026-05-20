@@ -135,8 +135,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 7 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 8 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#11696`](https://github.com/NethermindEth/nethermind/pull/11696) — fix(merge): capture bad blocks at pre-process rejection stages
 - [`#11665`](https://github.com/NethermindEth/nethermind/pull/11665) — fix(rpc): emit spec message for eth_simulateV1 -38020
 - [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
 - [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
@@ -232,8 +233,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 1 issue &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 2 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
+- [`#1234`](https://github.com/Tracer-Cloud/opensre/issues/1234) — Contextual Memory for OpenSRE Investigations
 - [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
 
 </details>
