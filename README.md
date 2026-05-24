@@ -233,10 +233,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 2 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 1 issue &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1234`](https://github.com/Tracer-Cloud/opensre/issues/1234) — Contextual Memory for OpenSRE Investigations
-- [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
 
 </details>
 
@@ -252,10 +251,11 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-closed -->
 <details>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 4 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 5 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1005`](https://github.com/Tracer-Cloud/opensre/issues/1005) — [FEATURE] : add docs for LLM APIs/CLI supported
 - [`#1014`](https://github.com/Tracer-Cloud/opensre/issues/1014) — [FEATURE] : add docs for telegram integration
+- [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
 - [`#993`](https://github.com/Tracer-Cloud/opensre/issues/993) — Add unit tests for GitLab tools (Commits, File, MRs, Pipelines)
 - [`#997`](https://github.com/Tracer-Cloud/opensre/issues/997) — Add Azure Monitor integration documentation (docs/azure-monitor.mdx)
 
