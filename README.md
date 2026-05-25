@@ -135,8 +135,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 8 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 9 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#11744`](https://github.com/NethermindEth/nethermind/pull/11744) — test(sync): un-ignore Can_cancel_seal_validation
 - [`#11696`](https://github.com/NethermindEth/nethermind/pull/11696) — fix(merge): capture bad blocks at pre-process rejection stages
 - [`#11665`](https://github.com/NethermindEth/nethermind/pull/11665) — fix(rpc): emit spec message for eth_simulateV1 -38020
 - [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
@@ -149,8 +150,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 6 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 7 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1692`](https://github.com/garrytan/gstack/pull/1692) — fix(skill-preamble): use $HOME instead of literal ~ in quoted bin paths (#1656)
 - [`#1595`](https://github.com/garrytan/gstack/pull/1595) — docs(codex): add Hermes-aware recovery branch for refresh_token_reused (#1542)
 - [`#1582`](https://github.com/garrytan/gstack/pull/1582) — fix(supabase-provision): rewrite transaction/6543 -> session/5432 for new projects (#1301)
 - [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
