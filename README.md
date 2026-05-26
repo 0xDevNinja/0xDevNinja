@@ -192,6 +192,14 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 2 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
+- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/cowprotocol/services">cowprotocol / services</a></b> &middot; 1 PR &middot; <a href="https://github.com/cowprotocol/services/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#4371`](https://github.com/cowprotocol/services/pull/4371) — Enforce EIP-7825 per-tx gas cap on settlement
