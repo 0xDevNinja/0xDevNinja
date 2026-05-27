@@ -119,6 +119,22 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 10 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#11799`](https://github.com/NethermindEth/nethermind/pull/11799) — test(evm): un-ignore Trace_invalid_jump{,i}_exception
+- [`#11744`](https://github.com/NethermindEth/nethermind/pull/11744) — test(sync): un-ignore Can_cancel_seal_validation
+- [`#11696`](https://github.com/NethermindEth/nethermind/pull/11696) — fix(merge): capture bad blocks at pre-process rejection stages
+- [`#11665`](https://github.com/NethermindEth/nethermind/pull/11665) — fix(rpc): emit spec message for eth_simulateV1 -38020
+- [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
+- [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
+- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
+- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
+- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
+- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 10 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1982`](https://github.com/Tracer-Cloud/opensre/pull/1982) — fix(e2e): resolve repo root correctly in deploy helpers
@@ -135,23 +151,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 9 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 8 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#11744`](https://github.com/NethermindEth/nethermind/pull/11744) — test(sync): un-ignore Can_cancel_seal_validation
-- [`#11696`](https://github.com/NethermindEth/nethermind/pull/11696) — fix(merge): capture bad blocks at pre-process rejection stages
-- [`#11665`](https://github.com/NethermindEth/nethermind/pull/11665) — fix(rpc): emit spec message for eth_simulateV1 -38020
-- [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
-- [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
-- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
-- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
-- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
-- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 7 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
+- [`#1747`](https://github.com/garrytan/gstack/pull/1747) — fix(preamble): echo SESSIONS count so CLAUDE.md rules can read it (#1651 Defect A)
 - [`#1692`](https://github.com/garrytan/gstack/pull/1692) — fix(skill-preamble): use $HOME instead of literal ~ in quoted bin paths (#1656)
 - [`#1595`](https://github.com/garrytan/gstack/pull/1595) — docs(codex): add Hermes-aware recovery branch for refresh_token_reused (#1542)
 - [`#1582`](https://github.com/garrytan/gstack/pull/1582) — fix(supabase-provision): rewrite transaction/6543 -> session/5432 for new projects (#1301)
@@ -174,6 +176,15 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 3 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
+- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
+- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 3 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2210`](https://github.com/o1-labs/mina-rust/pull/2210) — chore(node-common): silence wasm32 build warnings in archive module
@@ -188,14 +199,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
 - [`#661`](https://github.com/tc39/tc39.github.io/pull/661) — fix #300, extract language icon and remove stray copyright
 - [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 2 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
-- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
 
 </details>
 
