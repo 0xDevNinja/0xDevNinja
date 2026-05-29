@@ -151,8 +151,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 8 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 9 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#1789`](https://github.com/garrytan/gstack/pull/1789) — fix(make-pdf): assign body heading ids so --toc anchors resolve (#1689)
 - [`#1747`](https://github.com/garrytan/gstack/pull/1747) — fix(preamble): echo SESSIONS count so CLAUDE.md rules can read it (#1651 Defect A)
 - [`#1692`](https://github.com/garrytan/gstack/pull/1692) — fix(skill-preamble): use $HOME instead of literal ~ in quoted bin paths (#1656)
 - [`#1595`](https://github.com/garrytan/gstack/pull/1595) — docs(codex): add Hermes-aware recovery branch for refresh_token_reused (#1542)
