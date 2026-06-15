@@ -205,6 +205,22 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 2 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
+- [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 2 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1900`](https://github.com/lmnr-ai/lmnr/pull/1900) — fix(cache): honor entry expiry in CacheManager.exists() memory fallback
+- [`#1899`](https://github.com/lmnr-ai/lmnr/pull/1899) — fix(signals): support `ne` operator on tags trigger filters
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/cowprotocol/services">cowprotocol / services</a></b> &middot; 1 PR &middot; <a href="https://github.com/cowprotocol/services/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#4371`](https://github.com/cowprotocol/services/pull/4371) — Enforce EIP-7825 per-tx gas cap on settlement
