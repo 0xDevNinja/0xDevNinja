@@ -102,6 +102,23 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 11 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#12016`](https://github.com/NethermindEth/nethermind/pull/12016) — feat(rpc): add admin_setBlockProcessingPaused to pause/resume block processing
+- [`#11799`](https://github.com/NethermindEth/nethermind/pull/11799) — test(evm): un-ignore Trace_invalid_jump{,i}_exception
+- [`#11744`](https://github.com/NethermindEth/nethermind/pull/11744) — test(sync): un-ignore Can_cancel_seal_validation
+- [`#11696`](https://github.com/NethermindEth/nethermind/pull/11696) — fix(merge): capture bad blocks at pre-process rejection stages
+- [`#11665`](https://github.com/NethermindEth/nethermind/pull/11665) — fix(rpc): emit spec message for eth_simulateV1 -38020
+- [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
+- [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
+- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
+- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
+- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
+- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 11 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
@@ -132,22 +149,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex sessions by originator
 - [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
 - [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 10 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#11799`](https://github.com/NethermindEth/nethermind/pull/11799) — test(evm): un-ignore Trace_invalid_jump{,i}_exception
-- [`#11744`](https://github.com/NethermindEth/nethermind/pull/11744) — test(sync): un-ignore Can_cancel_seal_validation
-- [`#11696`](https://github.com/NethermindEth/nethermind/pull/11696) — fix(merge): capture bad blocks at pre-process rejection stages
-- [`#11665`](https://github.com/NethermindEth/nethermind/pull/11665) — fix(rpc): emit spec message for eth_simulateV1 -38020
-- [`#11641`](https://github.com/NethermindEth/nethermind/pull/11641) — refactor(core): centralize EIP-7702 SetCode shape checks
-- [`#11617`](https://github.com/NethermindEth/nethermind/pull/11617) — perf(merge-sync): cache PosForwardHeaderProvider.GetBlockHeaders
-- [`#11600`](https://github.com/NethermindEth/nethermind/pull/11600) — feat(sync): support infinite pivot-update attempts via -1 (#5992)
-- [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
-- [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
-- [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
 
 </details>
 
