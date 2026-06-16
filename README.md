@@ -119,6 +119,23 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 11 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#2022`](https://github.com/garrytan/gstack/pull/2022) — fix(preamble): gate upgrade-handling prose on update_check opt-out (#2001)
+- [`#2021`](https://github.com/garrytan/gstack/pull/2021) — fix(autoplan): bind commit before split-array index in tasks aggregator (#2018)
+- [`#1789`](https://github.com/garrytan/gstack/pull/1789) — fix(make-pdf): assign body heading ids so --toc anchors resolve (#1689)
+- [`#1747`](https://github.com/garrytan/gstack/pull/1747) — fix(preamble): echo SESSIONS count so CLAUDE.md rules can read it (#1651 Defect A)
+- [`#1692`](https://github.com/garrytan/gstack/pull/1692) — fix(skill-preamble): use $HOME instead of literal ~ in quoted bin paths (#1656)
+- [`#1595`](https://github.com/garrytan/gstack/pull/1595) — docs(codex): add Hermes-aware recovery branch for refresh_token_reused (#1542)
+- [`#1582`](https://github.com/garrytan/gstack/pull/1582) — fix(supabase-provision): rewrite transaction/6543 -> session/5432 for new projects (#1301)
+- [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
+- [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex sessions by originator
+- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
+- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 10 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#11799`](https://github.com/NethermindEth/nethermind/pull/11799) — test(evm): un-ignore Trace_invalid_jump{,i}_exception
@@ -151,21 +168,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 9 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#1789`](https://github.com/garrytan/gstack/pull/1789) — fix(make-pdf): assign body heading ids so --toc anchors resolve (#1689)
-- [`#1747`](https://github.com/garrytan/gstack/pull/1747) — fix(preamble): echo SESSIONS count so CLAUDE.md rules can read it (#1651 Defect A)
-- [`#1692`](https://github.com/garrytan/gstack/pull/1692) — fix(skill-preamble): use $HOME instead of literal ~ in quoted bin paths (#1656)
-- [`#1595`](https://github.com/garrytan/gstack/pull/1595) — docs(codex): add Hermes-aware recovery branch for refresh_token_reused (#1542)
-- [`#1582`](https://github.com/garrytan/gstack/pull/1582) — fix(supabase-provision): rewrite transaction/6543 -> session/5432 for new projects (#1301)
-- [`#1496`](https://github.com/garrytan/gstack/pull/1496) — fix(gstack-paths): add --get <key> so /codex skips eval-tilde footgun
-- [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex by originator + read 128KB for CC cwd
-- [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
-- [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
-
-</details>
-
-<details open>
 <summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 5 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
@@ -173,6 +175,16 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
 - [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
 - [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 4 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#32518`](https://github.com/anomalyco/opencode/pull/32518) — fix(agent): apply configured tool_choice to model requests
+- [`#32513`](https://github.com/anomalyco/opencode/pull/32513) — fix(config): warn when opencode.json and opencode.jsonc coexist
+- [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
+- [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
 
 </details>
 
@@ -205,18 +217,18 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 2 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
-- [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
-
-</details>
-
-<details open>
 <summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 2 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1900`](https://github.com/lmnr-ai/lmnr/pull/1900) — fix(cache): honor entry expiry in CacheManager.exists() memory fallback
 - [`#1899`](https://github.com/lmnr-ai/lmnr/pull/1899) — fix(signals): support `ne` operator on tags trigger filters
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity / trufflehog</a></b> &middot; 2 PRs &middot; <a href="https://github.com/trufflesecurity/trufflehog/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#5042`](https://github.com/trufflesecurity/trufflehog/pull/5042) — feat(detectors): add Gitea API token detector
+- [`#5040`](https://github.com/trufflesecurity/trufflehog/pull/5040) — feat: shell completion value hints + docs (bash/zsh)
 
 </details>
 
