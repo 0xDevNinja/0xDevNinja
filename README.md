@@ -169,6 +169,18 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 6 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#32644`](https://github.com/anomalyco/opencode/pull/32644) — fix(session): anchor system prompt date to session-start time
+- [`#32636`](https://github.com/anomalyco/opencode/pull/32636) — fix(acp): include resource URI as source prefix in text parts
+- [`#32518`](https://github.com/anomalyco/opencode/pull/32518) — fix(agent): apply configured tool_choice to model requests
+- [`#32513`](https://github.com/anomalyco/opencode/pull/32513) — fix(config): warn when opencode.json and opencode.jsonc coexist
+- [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
+- [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 5 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
@@ -176,16 +188,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
 - [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
 - [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 4 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#32518`](https://github.com/anomalyco/opencode/pull/32518) — fix(agent): apply configured tool_choice to model requests
-- [`#32513`](https://github.com/anomalyco/opencode/pull/32513) — fix(config): warn when opencode.json and opencode.jsonc coexist
-- [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
-- [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
 
 </details>
 
