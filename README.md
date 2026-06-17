@@ -169,8 +169,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 6 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 7 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#32677`](https://github.com/anomalyco/opencode/pull/32677) — fix(session): anchor system prompt date to session-start time
 - [`#32644`](https://github.com/anomalyco/opencode/pull/32644) — fix(session): anchor system prompt date to session-start time
 - [`#32636`](https://github.com/anomalyco/opencode/pull/32636) — fix(acp): include resource URI as source prefix in text parts
 - [`#32518`](https://github.com/anomalyco/opencode/pull/32518) — fix(agent): apply configured tool_choice to model requests
@@ -202,6 +203,25 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity / trufflehog</a></b> &middot; 4 PRs &middot; <a href="https://github.com/trufflesecurity/trufflehog/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#5047`](https://github.com/trufflesecurity/trufflehog/pull/5047) — feat(detectors): add MSG91 auth key detector
+- [`#5046`](https://github.com/trufflesecurity/trufflehog/pull/5046) — feat(detectors): add Codeberg API token detector
+- [`#5042`](https://github.com/trufflesecurity/trufflehog/pull/5042) — feat(detectors): add Gitea API token detector
+- [`#5040`](https://github.com/trufflesecurity/trufflehog/pull/5040) — feat: shell completion value hints + docs (bash/zsh)
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 3 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#1915`](https://github.com/lmnr-ai/lmnr/pull/1915) — fix(playground): handle legacy string message content
+- [`#1900`](https://github.com/lmnr-ai/lmnr/pull/1900) — fix(cache): honor entry expiry in CacheManager.exists() memory fallback
+- [`#1899`](https://github.com/lmnr-ai/lmnr/pull/1899) — fix(signals): support `ne` operator on tags trigger filters
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 3 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2210`](https://github.com/o1-labs/mina-rust/pull/2210) — chore(node-common): silence wasm32 build warnings in archive module
@@ -216,22 +236,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
 - [`#661`](https://github.com/tc39/tc39.github.io/pull/661) — fix #300, extract language icon and remove stray copyright
 - [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 2 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#1900`](https://github.com/lmnr-ai/lmnr/pull/1900) — fix(cache): honor entry expiry in CacheManager.exists() memory fallback
-- [`#1899`](https://github.com/lmnr-ai/lmnr/pull/1899) — fix(signals): support `ne` operator on tags trigger filters
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity / trufflehog</a></b> &middot; 2 PRs &middot; <a href="https://github.com/trufflesecurity/trufflehog/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#5042`](https://github.com/trufflesecurity/trufflehog/pull/5042) — feat(detectors): add Gitea API token detector
-- [`#5040`](https://github.com/trufflesecurity/trufflehog/pull/5040) — feat: shell completion value hints + docs (bash/zsh)
 
 </details>
 
