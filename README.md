@@ -169,8 +169,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 7 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 8 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#32790`](https://github.com/anomalyco/opencode/pull/32790) — fix(config): json-escape env/file substitutions into config text
 - [`#32677`](https://github.com/anomalyco/opencode/pull/32677) — fix(session): anchor system prompt date to session-start time
 - [`#32644`](https://github.com/anomalyco/opencode/pull/32644) — fix(session): anchor system prompt date to session-start time
 - [`#32636`](https://github.com/anomalyco/opencode/pull/32636) — fix(acp): include resource URI as source prefix in text parts
