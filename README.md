@@ -80,8 +80,8 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
-| [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
 | [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
+| [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
 | [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
 | [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 11 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 12 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#12058`](https://github.com/NethermindEth/nethermind/pull/12058) — feat(debug): align debug_trace* opcode tracer with execution-apis#762
 - [`#12016`](https://github.com/NethermindEth/nethermind/pull/12016) — feat(rpc): add admin_setBlockProcessingPaused to pause/resume block processing
 - [`#11799`](https://github.com/NethermindEth/nethermind/pull/11799) — test(evm): un-ignore Trace_invalid_jump{,i}_exception
 - [`#11744`](https://github.com/NethermindEth/nethermind/pull/11744) — test(sync): un-ignore Can_cancel_seal_validation
@@ -194,18 +195,20 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 4 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 5 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
-- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
-- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
-- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
+- [`#1921`](https://github.com/lmnr-ai/lmnr/pull/1921) — fix(sql): fall back to main ClickHouse creds for the read-only client
+- [`#1920`](https://github.com/lmnr-ai/lmnr/pull/1920) — fix(realtime): scope SSE CORS to an origin allow-list
+- [`#1915`](https://github.com/lmnr-ai/lmnr/pull/1915) — fix(playground): handle legacy string message content
+- [`#1900`](https://github.com/lmnr-ai/lmnr/pull/1900) — fix(cache): honor entry expiry in CacheManager.exists() memory fallback
+- [`#1899`](https://github.com/lmnr-ai/lmnr/pull/1899) — fix(signals): support `ne` operator on tags trigger filters
 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity / trufflehog</a></b> &middot; 4 PRs &middot; <a href="https://github.com/trufflesecurity/trufflehog/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity / trufflehog</a></b> &middot; 5 PRs &middot; <a href="https://github.com/trufflesecurity/trufflehog/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#5051`](https://github.com/trufflesecurity/trufflehog/pull/5051) — feat(detectors): add Tencent Cloud credential detector
 - [`#5047`](https://github.com/trufflesecurity/trufflehog/pull/5047) — feat(detectors): add MSG91 auth key detector
 - [`#5046`](https://github.com/trufflesecurity/trufflehog/pull/5046) — feat(detectors): add Codeberg API token detector
 - [`#5042`](https://github.com/trufflesecurity/trufflehog/pull/5042) — feat(detectors): add Gitea API token detector
@@ -214,11 +217,12 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 3 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 4 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#1915`](https://github.com/lmnr-ai/lmnr/pull/1915) — fix(playground): handle legacy string message content
-- [`#1900`](https://github.com/lmnr-ai/lmnr/pull/1900) — fix(cache): honor entry expiry in CacheManager.exists() memory fallback
-- [`#1899`](https://github.com/lmnr-ai/lmnr/pull/1899) — fix(signals): support `ne` operator on tags trigger filters
+- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
+- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
+- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
+- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
 
 </details>
 
@@ -275,8 +279,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 2 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
+- [`#6008`](https://github.com/ChainSafe/forest/issues/6008) — Customize Forest data directory via env variable
 - [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 - [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
 
