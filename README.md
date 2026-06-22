@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 12 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 13 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#12081`](https://github.com/NethermindEth/nethermind/pull/12081) — feat(debug): emit struct-log refund counter in geth opcode tracers
 - [`#12058`](https://github.com/NethermindEth/nethermind/pull/12058) — feat(debug): align debug_trace* opcode tracer with execution-apis#762
 - [`#12016`](https://github.com/NethermindEth/nethermind/pull/12016) — feat(rpc): add admin_setBlockProcessingPaused to pause/resume block processing
 - [`#11799`](https://github.com/NethermindEth/nethermind/pull/11799) — test(evm): un-ignore Trace_invalid_jump{,i}_exception
