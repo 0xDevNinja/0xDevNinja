@@ -80,13 +80,13 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
+| [zenith](https://github.com/0xDevNinja/zenith) | Zenith — a dynamic liquidity protocol on Solana: a concentrated-liquidity AMM and a bin-based liquidity-book DEX, with a TypeScript SDK and web app. | Rust, TypeScript | Active |
 | [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
 | [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
 | [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
 | [ProphecyChain](https://github.com/0xDevNinja/ProphecyChain) | Cosmos SDK oracle chain — validators attest Ethereum storage state with slashing-backed consensus. | Go | Active |
 | [neuro-mesh](https://github.com/0xDevNinja/neuro-mesh) | Peer-to-peer intelligence marketplace — Substrate appchain with subnet-based AI inference economics. | Rust, TypeScript | Active |
-| [cowSolver](https://github.com/0xDevNinja/cowSolver) | Cross-chain CoW Protocol solver — automated settlement optimization with bridge integration | Rust | Active |
 <!-- END:projects -->
 
 ## Technical Philosophy
@@ -121,8 +121,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 11 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 12 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#50832`](https://github.com/NousResearch/hermes-agent/pull/50832) — fix(model-metadata): retry transient OpenRouter fetch + quiet warning on cache fallback
 - [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
 - [`#26299`](https://github.com/NousResearch/hermes-agent/pull/26299) — fix(cli): tab-complete paths with embedded spaces
 - [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
@@ -185,8 +186,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 5 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 7 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
 - [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
 - [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
 - [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
