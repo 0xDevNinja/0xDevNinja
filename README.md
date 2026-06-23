@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 13 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 14 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#12101`](https://github.com/NethermindEth/nethermind/pull/12101) — feat(debug): emit struct-log returnData in geth opcode tracers
 - [`#12081`](https://github.com/NethermindEth/nethermind/pull/12081) — feat(debug): emit struct-log refund counter in geth opcode tracers
 - [`#12058`](https://github.com/NethermindEth/nethermind/pull/12058) — feat(debug): align debug_trace* opcode tracer with execution-apis#762
 - [`#12016`](https://github.com/NethermindEth/nethermind/pull/12016) — feat(rpc): add admin_setBlockProcessingPaused to pause/resume block processing
@@ -245,6 +246,14 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — fix: remove dead links to deleted translation_*.md files
 - [`#661`](https://github.com/tc39/tc39.github.io/pull/661) — fix #300, extract language icon and remove stray copyright
 - [`#660`](https://github.com/tc39/tc39.github.io/pull/660) — fix #406, translate fr site.json agenda and notes
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/weaviate/weaviate">weaviate / weaviate</a></b> &middot; 2 PRs &middot; <a href="https://github.com/weaviate/weaviate/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#11847`](https://github.com/weaviate/weaviate/pull/11847) — fix(flat): reject negative rescoreLimit on compression config (gh-11402)
+- [`#11846`](https://github.com/weaviate/weaviate/pull/11846) — fix(objects): reject negative offset and limit on REST objects list (gh-11660)
 
 </details>
 
