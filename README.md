@@ -122,8 +122,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 12 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 13 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#52402`](https://github.com/NousResearch/hermes-agent/pull/52402) — fix(cron): add default retention to per-run job output to bound disk usage
 - [`#50832`](https://github.com/NousResearch/hermes-agent/pull/50832) — fix(model-metadata): retry transient OpenRouter fetch + quiet warning on cache fallback
 - [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
 - [`#26299`](https://github.com/NousResearch/hermes-agent/pull/26299) — fix(cli): tab-complete paths with embedded spaces
@@ -232,6 +233,15 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 3 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
+- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
+- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 3 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2210`](https://github.com/o1-labs/mina-rust/pull/2210) — chore(node-common): silence wasm32 build warnings in archive module
@@ -296,6 +306,14 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 - [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 - [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 2 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
+- [`#189`](https://github.com/calesthio/OpenMontage/issues/189) — Add issue templates and a pull-request template
 
 </details>
 
