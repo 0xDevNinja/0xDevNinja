@@ -202,6 +202,17 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 5 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
+- [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
+- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
+- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
+- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 5 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1921`](https://github.com/lmnr-ai/lmnr/pull/1921) — fix(sql): fall back to main ClickHouse creds for the read-only client
@@ -230,15 +241,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
 - [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
 - [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 3 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
-- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
-- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
 
 </details>
 
