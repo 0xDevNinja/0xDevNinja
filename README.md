@@ -122,8 +122,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 13 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 14 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#52930`](https://github.com/NousResearch/hermes-agent/pull/52930) — fix(backup): include projects.db and kanban.db in pre-update snapshot
 - [`#52402`](https://github.com/NousResearch/hermes-agent/pull/52402) — fix(cron): add default retention to per-run job output to bound disk usage
 - [`#50832`](https://github.com/NousResearch/hermes-agent/pull/50832) — fix(model-metadata): retry transient OpenRouter fetch + quiet warning on cache fallback
 - [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
@@ -310,17 +311,16 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 2 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 1 issue &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
-- [`#189`](https://github.com/calesthio/OpenMontage/issues/189) — Add issue templates and a pull-request template
+- [`#1234`](https://github.com/Tracer-Cloud/opensre/issues/1234) — Contextual Memory for OpenSRE Investigations
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 1 issue &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 1 issue &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#1234`](https://github.com/Tracer-Cloud/opensre/issues/1234) — Contextual Memory for OpenSRE Investigations
+- [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
 
 </details>
 
@@ -361,6 +361,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 - [`#19879`](https://github.com/MystenLabs/sui/issues/19879) — Sui Code Bug or Feature Request
 - [`#20607`](https://github.com/MystenLabs/sui/issues/20607) — Example not updated for Transaction_subscription in rust
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 1 issue &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#189`](https://github.com/calesthio/OpenMontage/issues/189) — Add issue templates and a pull-request template
 
 </details>
 
