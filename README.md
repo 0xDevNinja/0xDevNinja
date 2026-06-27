@@ -320,13 +320,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 1 issue &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
-
-- [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
-
-</details>
-
-<details>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 1 issue &middot; <a href="https://github.com/o1-labs/mina-rust/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1260`](https://github.com/o1-labs/mina-rust/issues/1260) — Limit the usage of `std`, and rely on `core` as often as possible
@@ -367,8 +360,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 1 issue &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 2 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
+- [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
 - [`#189`](https://github.com/calesthio/OpenMontage/issues/189) — Add issue templates and a pull-request template
 
 </details>
