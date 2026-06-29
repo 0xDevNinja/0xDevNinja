@@ -202,8 +202,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 5 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 6 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
 - [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
 - [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
 - [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
