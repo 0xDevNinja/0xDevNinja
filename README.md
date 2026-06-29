@@ -202,8 +202,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 6 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 7 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
 - [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
 - [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
 - [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
@@ -306,10 +307,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 2 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 1 issue &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
-- [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
 
 </details>
 
@@ -332,6 +332,17 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-closed -->
 <details>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 5 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#4941`](https://github.com/ChainSafe/forest/issues/4941) — validate network definitions with `upgrades.json` 
+- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
+- [`#6334`](https://github.com/ChainSafe/forest/issues/6334) — Check integration with Protofire proxy
+- [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
+- [`#6505`](https://github.com/ChainSafe/forest/issues/6505) — Handle JoinSet task errors in test utility functions
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 5 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1005`](https://github.com/Tracer-Cloud/opensre/issues/1005) — [FEATURE] : add docs for LLM APIs/CLI supported
@@ -339,16 +350,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
 - [`#993`](https://github.com/Tracer-Cloud/opensre/issues/993) — Add unit tests for GitLab tools (Commits, File, MRs, Pipelines)
 - [`#997`](https://github.com/Tracer-Cloud/opensre/issues/997) — Add Azure Monitor integration documentation (docs/azure-monitor.mdx)
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 4 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
-
-- [`#4941`](https://github.com/ChainSafe/forest/issues/4941) — validate network definitions with `upgrades.json` 
-- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
-- [`#6334`](https://github.com/ChainSafe/forest/issues/6334) — Check integration with Protofire proxy
-- [`#6505`](https://github.com/ChainSafe/forest/issues/6505) — Handle JoinSet task errors in test utility functions
 
 </details>
 
