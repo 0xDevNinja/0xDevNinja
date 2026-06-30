@@ -102,6 +102,27 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 15 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#55478`](https://github.com/NousResearch/hermes-agent/pull/55478) — fix(delegate): merge persistent + runtime delegation config sources
+- [`#52930`](https://github.com/NousResearch/hermes-agent/pull/52930) — fix(backup): include projects.db and kanban.db in pre-update snapshot
+- [`#52402`](https://github.com/NousResearch/hermes-agent/pull/52402) — fix(cron): add default retention to per-run job output to bound disk usage
+- [`#50832`](https://github.com/NousResearch/hermes-agent/pull/50832) — fix(model-metadata): retry transient OpenRouter fetch + quiet warning on cache fallback
+- [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
+- [`#26299`](https://github.com/NousResearch/hermes-agent/pull/26299) — fix(cli): tab-complete paths with embedded spaces
+- [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
+- [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): refresh client from env on /reload
+- [`#21134`](https://github.com/NousResearch/hermes-agent/pull/21134) — fix(profile): honor renamed root alias in CLI/profile helpers
+- [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
+- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
+- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
+- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
+- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
+- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 14 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#12101`](https://github.com/NethermindEth/nethermind/pull/12101) — feat(debug): emit struct-log returnData in geth opcode tracers
@@ -118,26 +139,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
 - [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 14 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#52930`](https://github.com/NousResearch/hermes-agent/pull/52930) — fix(backup): include projects.db and kanban.db in pre-update snapshot
-- [`#52402`](https://github.com/NousResearch/hermes-agent/pull/52402) — fix(cron): add default retention to per-run job output to bound disk usage
-- [`#50832`](https://github.com/NousResearch/hermes-agent/pull/50832) — fix(model-metadata): retry transient OpenRouter fetch + quiet warning on cache fallback
-- [`#27966`](https://github.com/NousResearch/hermes-agent/pull/27966) — feat(image_gen): port FAL backend to plugins/image_gen/fal
-- [`#26299`](https://github.com/NousResearch/hermes-agent/pull/26299) — fix(cli): tab-complete paths with embedded spaces
-- [`#23664`](https://github.com/NousResearch/hermes-agent/pull/23664) — chore(ci): pass VERCEL_DEPLOY_HOOK via env block, not inline expression
-- [`#21138`](https://github.com/NousResearch/hermes-agent/pull/21138) — fix(openviking): refresh client from env on /reload
-- [`#21134`](https://github.com/NousResearch/hermes-agent/pull/21134) — fix(profile): honor renamed root alias in CLI/profile helpers
-- [`#20602`](https://github.com/NousResearch/hermes-agent/pull/20602) — fix(credentials): prefer ~/.hermes/.env over stale os.environ on key rotation
-- [`#20100`](https://github.com/NousResearch/hermes-agent/pull/20100) — fix(config): dedupe duplicate KEY= lines in save_env_value
-- [`#20094`](https://github.com/NousResearch/hermes-agent/pull/20094) — fix(cli): pin HERMES_KANBAN_BOARD at chat boot to stop subprocess board drift
-- [`#18405`](https://github.com/NousResearch/hermes-agent/pull/18405) — fix(tui): copy selection on Ctrl+C in approval overlay instead of denying
-- [`#17951`](https://github.com/NousResearch/hermes-agent/pull/17951) — fix(curator): scan nested archive subdirs in restore_skill
-- [`#17821`](https://github.com/NousResearch/hermes-agent/pull/17821) — fix(tui): guard /reload-mcp against null ctx.sid
 
 </details>
 
