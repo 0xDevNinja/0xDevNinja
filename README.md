@@ -102,8 +102,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 15 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 17 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#56852`](https://github.com/NousResearch/hermes-agent/pull/56852) — fix(cli): resolve moa:<preset> model in non-interactive mode
+- [`#56542`](https://github.com/NousResearch/hermes-agent/pull/56542) — fix(tui): strip ANSI from slash-command output before returning to chat
 - [`#55478`](https://github.com/NousResearch/hermes-agent/pull/55478) — fix(delegate): merge persistent + runtime delegation config sources
 - [`#52930`](https://github.com/NousResearch/hermes-agent/pull/52930) — fix(backup): include projects.db and kanban.db in pre-update snapshot
 - [`#52402`](https://github.com/NousResearch/hermes-agent/pull/52402) — fix(cron): add default retention to per-run job output to bound disk usage
