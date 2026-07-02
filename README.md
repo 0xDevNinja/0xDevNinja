@@ -145,6 +145,23 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 11 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#266`](https://github.com/calesthio/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
+- [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
+- [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
+- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix: repair local zero-key rendering (Remotion asset staging, resolveAsset, Piper status)
+- [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
+- [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
+- [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
+- [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
+- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
+- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
+- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 11 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2022`](https://github.com/garrytan/gstack/pull/2022) — fix(preamble): gate upgrade-handling prose on update_check opt-out (#2001)
@@ -178,18 +195,17 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 10 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 9 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
-- [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
-- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix: repair local zero-key rendering (Remotion asset staging, resolveAsset, Piper status)
-- [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
-- [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
-- [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
-- [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
-- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
-- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
-- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
+- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
+- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
+- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
+- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
+- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
+- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
+- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
 
 </details>
 
@@ -204,19 +220,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#32513`](https://github.com/anomalyco/opencode/pull/32513) — fix(config): warn when opencode.json and opencode.jsonc coexist
 - [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
 - [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 7 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
-- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
-- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
-- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
-- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
 
 </details>
 
@@ -313,16 +316,19 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 1 issue &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 4 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
+- [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
+- [`#265`](https://github.com/calesthio/OpenMontage/issues/265) — audio_mixer full_mix with ducking fails for single narration + music (dangling filtergraph pad)
+- [`#268`](https://github.com/calesthio/OpenMontage/issues/268) — check_scene_variation miscounts 'consecutive same-size shots' (counts non-consecutive pairs)
+- [`#269`](https://github.com/calesthio/OpenMontage/issues/269) — review_source_media emits a schema-invalid artifact when no media is reviewed (files:[] vs minItems:1)
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 1 issue &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 1 issue &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
+- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 
 </details>
 
@@ -338,6 +344,18 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-closed -->
 <details>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 6 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#4941`](https://github.com/ChainSafe/forest/issues/4941) — validate network definitions with `upgrades.json` 
+- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
+- [`#6334`](https://github.com/ChainSafe/forest/issues/6334) — Check integration with Protofire proxy
+- [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
+- [`#6505`](https://github.com/ChainSafe/forest/issues/6505) — Handle JoinSet task errors in test utility functions
+- [`#7210`](https://github.com/ChainSafe/forest/issues/7210) — Make DESCRIPTION in RPC methods mandatory
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 6 issues &middot; <a href="https://github.com/Tracer-Cloud/opensre/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1005`](https://github.com/Tracer-Cloud/opensre/issues/1005) — [FEATURE] : add docs for LLM APIs/CLI supported
@@ -346,17 +364,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#1477`](https://github.com/Tracer-Cloud/opensre/issues/1477) — Sentry coverage 3/5 — Add init_sentry() to missing entrypoints (analytics, daily-update, github-issue-comments, grafana-seed, hosted graph)
 - [`#993`](https://github.com/Tracer-Cloud/opensre/issues/993) — Add unit tests for GitLab tools (Commits, File, MRs, Pipelines)
 - [`#997`](https://github.com/Tracer-Cloud/opensre/issues/997) — Add Azure Monitor integration documentation (docs/azure-monitor.mdx)
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 5 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
-
-- [`#4941`](https://github.com/ChainSafe/forest/issues/4941) — validate network definitions with `upgrades.json` 
-- [`#6012`](https://github.com/ChainSafe/forest/issues/6012) — feat: implement strict address validation in forest-wallet CLI
-- [`#6334`](https://github.com/ChainSafe/forest/issues/6334) — Check integration with Protofire proxy
-- [`#6442`](https://github.com/ChainSafe/forest/issues/6442) — Implement FRC-102 in `forest-wallet` for consistency across Filecoin wallets
-- [`#6505`](https://github.com/ChainSafe/forest/issues/6505) — Handle JoinSet task errors in test utility functions
 
 </details>
 
