@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 17 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 18 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#57688`](https://github.com/NousResearch/hermes-agent/pull/57688) — fix(cron): deliver no_agent job output verbatim without the response wrapper
 - [`#56852`](https://github.com/NousResearch/hermes-agent/pull/56852) — fix(cli): resolve moa:<preset> model in non-interactive mode
 - [`#56542`](https://github.com/NousResearch/hermes-agent/pull/56542) — fix(tui): strip ANSI from slash-command output before returning to chat
 - [`#55478`](https://github.com/NousResearch/hermes-agent/pull/55478) — fix(delegate): merge persistent + runtime delegation config sources
@@ -145,8 +146,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 11 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 13 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#280`](https://github.com/calesthio/OpenMontage/pull/280) — fix(scoring): tokenizer swallows trailing punctuation; cinematic bonus uses raw split() (#279)
+- [`#278`](https://github.com/calesthio/OpenMontage/pull/278) — fix(delivery_promise): motion_required derived before has_footage reclassification (#277)
 - [`#266`](https://github.com/calesthio/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
 - [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
 - [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
@@ -224,6 +227,18 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 6 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#802`](https://github.com/langchain-ai/langchain-azure/pull/802) — fix(azure-ai): fall back to message metadata for gen_ai.response.id
+- [`#801`](https://github.com/langchain-ai/langchain-azure/pull/801) — feat(sqlserver): use binary collation for custom_id column
+- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
+- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
+- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
+- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 5 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1921`](https://github.com/lmnr-ai/lmnr/pull/1921) — fix(sql): fall back to main ClickHouse creds for the read-only client
@@ -242,16 +257,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#5046`](https://github.com/trufflesecurity/trufflehog/pull/5046) — feat(detectors): add Codeberg API token detector
 - [`#5042`](https://github.com/trufflesecurity/trufflehog/pull/5042) — feat(detectors): add Gitea API token detector
 - [`#5040`](https://github.com/trufflesecurity/trufflehog/pull/5040) — feat: shell completion value hints + docs (bash/zsh)
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 4 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
-- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
-- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
-- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
 
 </details>
 
@@ -316,12 +321,14 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 4 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 6 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
 - [`#265`](https://github.com/calesthio/OpenMontage/issues/265) — audio_mixer full_mix with ducking fails for single narration + music (dangling filtergraph pad)
 - [`#268`](https://github.com/calesthio/OpenMontage/issues/268) — check_scene_variation miscounts 'consecutive same-size shots' (counts non-consecutive pairs)
 - [`#269`](https://github.com/calesthio/OpenMontage/issues/269) — review_source_media emits a schema-invalid artifact when no media is reviewed (files:[] vs minItems:1)
+- [`#277`](https://github.com/calesthio/OpenMontage/issues/277) — classify_from_brief derives motion_required before has_footage reclassifies to SOURCE_LED
+- [`#279`](https://github.com/calesthio/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
 
 </details>
 
