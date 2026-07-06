@@ -126,6 +126,27 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 15 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#309`](https://github.com/calesthio/OpenMontage/pull/309) — fix: openai_image returns all n images; segmented_music stops halving narration
+- [`#307`](https://github.com/calesthio/OpenMontage/pull/307) — fix(style_bridge): read playbook typography/pace from their real schema keys
+- [`#280`](https://github.com/calesthio/OpenMontage/pull/280) — fix(scoring): tokenizer swallows trailing punctuation; cinematic bonus uses raw split() (#279)
+- [`#278`](https://github.com/calesthio/OpenMontage/pull/278) — fix(delivery_promise): motion_required derived before has_footage reclassification (#277)
+- [`#266`](https://github.com/calesthio/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
+- [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
+- [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
+- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix: repair local zero-key rendering (Remotion asset staging, resolveAsset, Piper status)
+- [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
+- [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
+- [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
+- [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
+- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
+- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
+- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 14 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#12101`](https://github.com/NethermindEth/nethermind/pull/12101) — feat(debug): emit struct-log returnData in geth opcode tracers
@@ -142,25 +163,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
 - [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 13 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#280`](https://github.com/calesthio/OpenMontage/pull/280) — fix(scoring): tokenizer swallows trailing punctuation; cinematic bonus uses raw split() (#279)
-- [`#278`](https://github.com/calesthio/OpenMontage/pull/278) — fix(delivery_promise): motion_required derived before has_footage reclassification (#277)
-- [`#266`](https://github.com/calesthio/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
-- [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
-- [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
-- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix: repair local zero-key rendering (Remotion asset staging, resolveAsset, Piper status)
-- [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
-- [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
-- [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
-- [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
-- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
-- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
-- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
 
 </details>
 
@@ -321,10 +323,12 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 2 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 4 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
 - [`#279`](https://github.com/calesthio/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
+- [`#306`](https://github.com/calesthio/OpenMontage/issues/306) — HyperFrames style bridge reads typography.heading and motion.pace from non-schema keys (both silently drop to fallback)
+- [`#308`](https://github.com/calesthio/OpenMontage/issues/308) — Media tools under-deliver: openai_image drops n>1 images (bills for n); segmented_music halves narration volume
 
 </details>
 
