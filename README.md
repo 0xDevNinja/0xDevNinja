@@ -229,8 +229,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 6 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 8 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#813`](https://github.com/langchain-ai/langchain-azure/pull/813) — fix(sqlserver): preserve MMR ranking order in results
+- [`#812`](https://github.com/langchain-ai/langchain-azure/pull/812) — fix(sqlserver): use not_in for $nin metadata filter operator
 - [`#802`](https://github.com/langchain-ai/langchain-azure/pull/802) — fix(azure-ai): fall back to message metadata for gen_ai.response.id
 - [`#801`](https://github.com/langchain-ai/langchain-azure/pull/801) — feat(sqlserver): use binary collation for custom_id column
 - [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
