@@ -126,8 +126,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 15 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 16 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#325`](https://github.com/calesthio/OpenMontage/pull/325) — fix: subtitle timestamp ms overflow; checkpoint KeyError on manifest-only stages
 - [`#309`](https://github.com/calesthio/OpenMontage/pull/309) — fix: openai_image returns all n images; segmented_music stops halving narration
 - [`#307`](https://github.com/calesthio/OpenMontage/pull/307) — fix(style_bridge): read playbook typography/pace from their real schema keys
 - [`#280`](https://github.com/calesthio/OpenMontage/pull/280) — fix(scoring): tokenizer swallows trailing punctuation; cinematic bonus uses raw split() (#279)
@@ -184,6 +185,22 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 10 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#7312`](https://github.com/ChainSafe/forest/pull/7312) — docs: let wide tables use full width on large screens
+- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
+- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
+- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
+- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
+- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
+- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
+- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 10 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1982`](https://github.com/Tracer-Cloud/opensre/pull/1982) — fix(e2e): resolve repo root correctly in deploy helpers
@@ -200,17 +217,17 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 9 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 9 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
-- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
-- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
-- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
-- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
-- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
-- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
+- [`#814`](https://github.com/langchain-ai/langchain-azure/pull/814) — fix(sqlserver): honor string distance_strategy in relevance scoring
+- [`#813`](https://github.com/langchain-ai/langchain-azure/pull/813) — fix(sqlserver): preserve MMR ranking order in results
+- [`#812`](https://github.com/langchain-ai/langchain-azure/pull/812) — fix(sqlserver): use not_in for $nin metadata filter operator
+- [`#802`](https://github.com/langchain-ai/langchain-azure/pull/802) — fix(azure-ai): fall back to message metadata for gen_ai.response.id
+- [`#801`](https://github.com/langchain-ai/langchain-azure/pull/801) — feat(sqlserver): use binary collation for custom_id column
+- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
+- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
+- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
+- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
 
 </details>
 
@@ -225,20 +242,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#32513`](https://github.com/anomalyco/opencode/pull/32513) — fix(config): warn when opencode.json and opencode.jsonc coexist
 - [`#32440`](https://github.com/anomalyco/opencode/pull/32440) — fix(cli): avoid spinner escape spam on plugin install in non-TTY
 - [`#32434`](https://github.com/anomalyco/opencode/pull/32434) — docs: correct plugin cache path to packages dir
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 8 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#813`](https://github.com/langchain-ai/langchain-azure/pull/813) — fix(sqlserver): preserve MMR ranking order in results
-- [`#812`](https://github.com/langchain-ai/langchain-azure/pull/812) — fix(sqlserver): use not_in for $nin metadata filter operator
-- [`#802`](https://github.com/langchain-ai/langchain-azure/pull/802) — fix(azure-ai): fall back to message metadata for gen_ai.response.id
-- [`#801`](https://github.com/langchain-ai/langchain-azure/pull/801) — feat(sqlserver): use binary collation for custom_id column
-- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
-- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
-- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
-- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
 
 </details>
 
@@ -325,11 +328,12 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 3 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 4 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
 - [`#279`](https://github.com/calesthio/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
 - [`#306`](https://github.com/calesthio/OpenMontage/issues/306) — HyperFrames style bridge reads typography.heading and motion.pace from non-schema keys (both silently drop to fallback)
+- [`#324`](https://github.com/calesthio/OpenMontage/issues/324) — Subtitle timestamps overflow to 4-digit ms; checkpoint validation KeyErrors on manifest-only stages
 
 </details>
 
