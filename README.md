@@ -168,6 +168,24 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 12 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#7319`](https://github.com/ChainSafe/forest/pull/7319) — refactor(tool): extract snapshot export into a shared module
+- [`#7318`](https://github.com/ChainSafe/forest/pull/7318) — docs: group JSON-RPC overview and JWT auth in one section
+- [`#7312`](https://github.com/ChainSafe/forest/pull/7312) — docs: let wide tables use full width on large screens
+- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
+- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
+- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
+- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
+- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
+- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
+- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 11 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2022`](https://github.com/garrytan/gstack/pull/2022) — fix(preamble): gate upgrade-handling prose on update_check opt-out (#2001)
@@ -181,22 +199,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#1488`](https://github.com/garrytan/gstack/pull/1488) — fix(global-discover): bucket codex sessions by originator
 - [`#1469`](https://github.com/garrytan/gstack/pull/1469) — fix(artifacts-init): honor gh/glab git_protocol when picking push URL
 - [`#1468`](https://github.com/garrytan/gstack/pull/1468) — fix(gbrain-sync): fold hostname into code-source id hash
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 10 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#7312`](https://github.com/ChainSafe/forest/pull/7312) — docs: let wide tables use full width on large screens
-- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
-- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
-- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
-- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
-- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
-- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
-- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
 
 </details>
 
@@ -217,8 +219,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 9 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 10 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#817`](https://github.com/langchain-ai/langchain-azure/pull/817) — fix(azure-ai): return empty list from async MMR search when no results
 - [`#814`](https://github.com/langchain-ai/langchain-azure/pull/814) — fix(sqlserver): honor string distance_strategy in relevance scoring
 - [`#813`](https://github.com/langchain-ai/langchain-azure/pull/813) — fix(sqlserver): preserve MMR ranking order in results
 - [`#812`](https://github.com/langchain-ai/langchain-azure/pull/812) — fix(sqlserver): use not_in for $nin metadata filter operator
