@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 18 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 19 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#61364`](https://github.com/NousResearch/hermes-agent/pull/61364) — fix(serve): exit desktop backend when its parent process dies
 - [`#57688`](https://github.com/NousResearch/hermes-agent/pull/57688) — fix(cron): deliver no_agent job output verbatim without the response wrapper
 - [`#56852`](https://github.com/NousResearch/hermes-agent/pull/56852) — fix(cli): resolve moa:<preset> model in non-interactive mode
 - [`#56542`](https://github.com/NousResearch/hermes-agent/pull/56542) — fix(tui): strip ANSI from slash-command output before returning to chat
@@ -126,8 +127,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 16 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 17 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#337`](https://github.com/calesthio/OpenMontage/pull/337) — fix(green_screen): scale chromakey background to frame size, not 1x1
 - [`#325`](https://github.com/calesthio/OpenMontage/pull/325) — fix: subtitle timestamp ms overflow; checkpoint KeyError on manifest-only stages
 - [`#309`](https://github.com/calesthio/OpenMontage/pull/309) — fix: openai_image returns all n images; segmented_music stops halving narration
 - [`#307`](https://github.com/calesthio/OpenMontage/pull/307) — fix(style_bridge): read playbook typography/pace from their real schema keys
@@ -331,12 +333,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 4 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 5 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
 - [`#279`](https://github.com/calesthio/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
 - [`#306`](https://github.com/calesthio/OpenMontage/issues/306) — HyperFrames style bridge reads typography.heading and motion.pace from non-schema keys (both silently drop to fallback)
 - [`#324`](https://github.com/calesthio/OpenMontage/issues/324) — Subtitle timestamps overflow to 4-digit ms; checkpoint validation KeyErrors on manifest-only stages
+- [`#336`](https://github.com/calesthio/OpenMontage/issues/336) — green_screen chromakey composites onto a 1x1 background -> solid-color output (subject lost)
 
 </details>
 
