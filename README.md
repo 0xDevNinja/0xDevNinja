@@ -205,6 +205,23 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 11 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#820`](https://github.com/langchain-ai/langchain-azure/pull/820) — fix(sqlserver): return string ids from add_texts
+- [`#817`](https://github.com/langchain-ai/langchain-azure/pull/817) — fix(azure-ai): return empty list from async MMR search when no results
+- [`#814`](https://github.com/langchain-ai/langchain-azure/pull/814) — fix(sqlserver): honor string distance_strategy in relevance scoring
+- [`#813`](https://github.com/langchain-ai/langchain-azure/pull/813) — fix(sqlserver): preserve MMR ranking order in results
+- [`#812`](https://github.com/langchain-ai/langchain-azure/pull/812) — fix(sqlserver): use not_in for $nin metadata filter operator
+- [`#802`](https://github.com/langchain-ai/langchain-azure/pull/802) — fix(azure-ai): fall back to message metadata for gen_ai.response.id
+- [`#801`](https://github.com/langchain-ai/langchain-azure/pull/801) — feat(sqlserver): use binary collation for custom_id column
+- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
+- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
+- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
+- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 10 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1982`](https://github.com/Tracer-Cloud/opensre/pull/1982) — fix(e2e): resolve repo root correctly in deploy helpers
@@ -217,22 +234,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#1002`](https://github.com/Tracer-Cloud/opensre/pull/1002) — docs(tests): correct FileNotFoundError example message in tests/AGENTS.md
 - [`#999`](https://github.com/Tracer-Cloud/opensre/pull/999) — docs(azure-monitor): add Azure Monitor integration guide
 - [`#990`](https://github.com/Tracer-Cloud/opensre/pull/990) — fix(eks): forward stored AWS integration credentials into build_k8s_clients
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 10 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#817`](https://github.com/langchain-ai/langchain-azure/pull/817) — fix(azure-ai): return empty list from async MMR search when no results
-- [`#814`](https://github.com/langchain-ai/langchain-azure/pull/814) — fix(sqlserver): honor string distance_strategy in relevance scoring
-- [`#813`](https://github.com/langchain-ai/langchain-azure/pull/813) — fix(sqlserver): preserve MMR ranking order in results
-- [`#812`](https://github.com/langchain-ai/langchain-azure/pull/812) — fix(sqlserver): use not_in for $nin metadata filter operator
-- [`#802`](https://github.com/langchain-ai/langchain-azure/pull/802) — fix(azure-ai): fall back to message metadata for gen_ai.response.id
-- [`#801`](https://github.com/langchain-ai/langchain-azure/pull/801) — feat(sqlserver): use binary collation for custom_id column
-- [`#633`](https://github.com/langchain-ai/langchain-azure/pull/633) — feat(sqlserver): add async methods to SQLServer_VectorStore
-- [`#630`](https://github.com/langchain-ai/langchain-azure/pull/630) — feat(sqlserver): add SQLServerSaver LangGraph checkpoint saver
-- [`#629`](https://github.com/langchain-ai/langchain-azure/pull/629) — feat(sqlserver): add SQLServerChatMessageHistory
-- [`#628`](https://github.com/langchain-ai/langchain-azure/pull/628) — feat(sqlserver): add upsert option to add_texts and from_documents
 
 </details>
 
