@@ -359,13 +359,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 1 issue &middot; <a href="https://github.com/lmnr-ai/lmnr/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
-
-- [`#2019`](https://github.com/lmnr-ai/lmnr/issues/2019) — OpenAI converter can emit empty tool_call_id for missing functionResponse.id
-
-</details>
-
-<details>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 1 issue &middot; <a href="https://github.com/o1-labs/mina-rust/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1260`](https://github.com/o1-labs/mina-rust/issues/1260) — Limit the usage of `std`, and rely on `core` as often as possible
@@ -425,6 +418,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b><a href="https://github.com/hyperlane-xyz/hyperlane-monorepo">hyperlane-xyz / hyperlane-monorepo</a></b> &middot; 1 issue &middot; <a href="https://github.com/hyperlane-xyz/hyperlane-monorepo/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1798`](https://github.com/hyperlane-xyz/hyperlane-monorepo/issues/1798) — Missing MAX_MESSAGE_BODY_BYTES check in MockMailbox
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 1 issue &middot; <a href="https://github.com/lmnr-ai/lmnr/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#2019`](https://github.com/lmnr-ai/lmnr/issues/2019) — OpenAI converter can emit empty tool_call_id for missing functionResponse.id
 
 </details>
 <!-- END:issues-closed -->
