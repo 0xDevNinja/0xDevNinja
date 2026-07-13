@@ -334,12 +334,11 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 5 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 4 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
 - [`#279`](https://github.com/calesthio/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
 - [`#306`](https://github.com/calesthio/OpenMontage/issues/306) — HyperFrames style bridge reads typography.heading and motion.pace from non-schema keys (both silently drop to fallback)
-- [`#324`](https://github.com/calesthio/OpenMontage/issues/324) — Subtitle timestamps overflow to 4-digit ms; checkpoint validation KeyErrors on manifest-only stages
 - [`#336`](https://github.com/calesthio/OpenMontage/issues/336) — green_screen chromakey composites onto a 1x1 background -> solid-color output (subject lost)
 
 </details>
@@ -370,7 +369,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-closed -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 7 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 8 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
 - [`#189`](https://github.com/calesthio/OpenMontage/issues/189) — Add issue templates and a pull-request template
@@ -379,6 +378,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#269`](https://github.com/calesthio/OpenMontage/issues/269) — review_source_media emits a schema-invalid artifact when no media is reviewed (files:[] vs minItems:1)
 - [`#277`](https://github.com/calesthio/OpenMontage/issues/277) — classify_from_brief derives motion_required before has_footage reclassifies to SOURCE_LED
 - [`#308`](https://github.com/calesthio/OpenMontage/issues/308) — Media tools under-deliver: openai_image drops n>1 images (bills for n); segmented_music halves narration volume
+- [`#324`](https://github.com/calesthio/OpenMontage/issues/324) — Subtitle timestamps overflow to 4-digit ms; checkpoint validation KeyErrors on manifest-only stages
 
 </details>
 
