@@ -80,8 +80,8 @@ Currently: freelancing across Web3 — building solvers, smart contracts, and ba
 <!-- START:projects -->
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
-| [zenith](https://github.com/0xDevNinja/zenith) | Zenith — a dynamic liquidity protocol on Solana: a concentrated-liquidity AMM and a bin-based liquidity-book DEX, with a TypeScript SDK and web app. | Rust, TypeScript | Active |
 | [solidity-examples](https://github.com/0xDevNinja/solidity-examples) | Solidity tutorials and sample contracts — learning reference covering patterns and DeFi primitives. | Solidity, TypeScript | Active |
+| [zenith](https://github.com/0xDevNinja/zenith) | Zenith — a dynamic liquidity protocol on Solana: a concentrated-liquidity AMM and a bin-based liquidity-book DEX, with a TypeScript SDK and web app. | Rust, TypeScript | Active |
 | [Rust-Algorithms](https://github.com/0xDevNinja/Rust-Algorithms) | Classical algorithms in idiomatic Rust with thorough test suites | Rust | Active |
 | [titular](https://github.com/0xDevNinja/titular) | Multi-chain commerce layer for AI agents — Base/Eth/Solana launchpad with ACP v2 + GAME planner. | Solidity, Rust | Active |
 | [omniforge](https://github.com/0xDevNinja/omniforge) | One Go API and one CLI for every git forge — GitHub, GitLab, Gitea/Forgejo, Bitbucket Cloud. | Go | Active |
