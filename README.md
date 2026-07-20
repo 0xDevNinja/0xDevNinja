@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 21 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 22 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#68047`](https://github.com/NousResearch/hermes-agent/pull/68047) — fix(tools): let an explicit toolset list win over x_search auto-enable
 - [`#65674`](https://github.com/NousResearch/hermes-agent/pull/65674) — fix(agent): nudge once before the housekeeping empty-follow-up shortcut
 - [`#64954`](https://github.com/NousResearch/hermes-agent/pull/64954) — fix(skills): resolve the skills root before computing the lock install path
 - [`#61364`](https://github.com/NousResearch/hermes-agent/pull/61364) — fix(serve): exit desktop backend when its parent process dies
