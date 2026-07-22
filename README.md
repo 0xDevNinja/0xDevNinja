@@ -195,8 +195,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 12 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 13 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#853`](https://github.com/langchain-ai/langchain-azure/pull/853) — fix(sqlserver): use not_in for $nin metadata filter operator
 - [`#832`](https://github.com/langchain-ai/langchain-azure/pull/832) — fix(azure-storage): close ContainerClient in sync lazy_load
 - [`#820`](https://github.com/langchain-ai/langchain-azure/pull/820) — fix(sqlserver): return string ids from add_texts
 - [`#817`](https://github.com/langchain-ai/langchain-azure/pull/817) — fix(azure-ai): return empty list from async MMR search when no results
