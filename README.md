@@ -130,8 +130,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 19 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 20 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#426`](https://github.com/calesthio/OpenMontage/pull/426) — fix(corpus_builder): fail when every candidate fails to process
 - [`#393`](https://github.com/calesthio/OpenMontage/pull/393) — fix(corpus): normalize diversify() position term so similarity can compete
 - [`#389`](https://github.com/calesthio/OpenMontage/pull/389) — fix(google_imagen): write every generated image, not just the first
 - [`#337`](https://github.com/calesthio/OpenMontage/pull/337) — fix(green_screen): scale chromakey background to frame size, not 1x1
@@ -155,8 +156,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 15 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 16 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#12551`](https://github.com/NethermindEth/nethermind/pull/12551) — fix(rpc): bound the results queued across eth_filters
 - [`#12474`](https://github.com/NethermindEth/nethermind/pull/12474) — fix(tracing): restore log.contract when inner call frame exits
 - [`#12101`](https://github.com/NethermindEth/nethermind/pull/12101) — feat(debug): emit struct-log returnData in geth opcode tracers
 - [`#12081`](https://github.com/NethermindEth/nethermind/pull/12081) — feat(debug): emit struct-log refund counter in geth opcode tracers
