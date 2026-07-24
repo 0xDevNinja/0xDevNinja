@@ -158,7 +158,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <details open>
 <summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 16 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#12551`](https://github.com/NethermindEth/nethermind/pull/12551) — fix(rpc): bound the results queued across eth_filters
+- [`#12551`](https://github.com/NethermindEth/nethermind/pull/12551) — fix(rpc): reject new eth_filters once the queued-results budget is exhausted
 - [`#12474`](https://github.com/NethermindEth/nethermind/pull/12474) — fix(tracing): restore log.contract when inner call frame exits
 - [`#12101`](https://github.com/NethermindEth/nethermind/pull/12101) — feat(debug): emit struct-log returnData in geth opcode tracers
 - [`#12081`](https://github.com/NethermindEth/nethermind/pull/12081) — feat(debug): emit struct-log refund counter in geth opcode tracers
