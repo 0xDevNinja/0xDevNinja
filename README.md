@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 22 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 23 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#72577`](https://github.com/NousResearch/hermes-agent/pull/72577) — fix(tools): recognise WeCom targets in _parse_target_ref
 - [`#68047`](https://github.com/NousResearch/hermes-agent/pull/68047) — fix(tools): let an explicit toolset list win over x_search auto-enable
 - [`#65674`](https://github.com/NousResearch/hermes-agent/pull/65674) — fix(agent): nudge once before the housekeeping empty-follow-up shortcut
 - [`#64954`](https://github.com/NousResearch/hermes-agent/pull/64954) — fix(skills): resolve the skills root before computing the lock install path
@@ -130,8 +131,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 20 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 21 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#443`](https://github.com/calesthio/OpenMontage/pull/443) — fix(audio_mixer): let full_mix pin the exact composition length (target_duration)
 - [`#426`](https://github.com/calesthio/OpenMontage/pull/426) — fix(corpus_builder): fail when every candidate fails to process
 - [`#393`](https://github.com/calesthio/OpenMontage/pull/393) — fix(corpus): normalize diversify() position term so similarity can compete
 - [`#389`](https://github.com/calesthio/OpenMontage/pull/389) — fix(google_imagen): write every generated image, not just the first
@@ -178,8 +180,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 13 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 14 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#7419`](https://github.com/ChainSafe/forest/pull/7419) — feat(eth): allow eth_call and eth_estimateGas from contract and non-existent senders
 - [`#7347`](https://github.com/ChainSafe/forest/pull/7347) — test(lotus_json): assert LotusJson<Option<T>> is nullable in schema
 - [`#7319`](https://github.com/ChainSafe/forest/pull/7319) — refactor(tool): extract snapshot export into a shared module
 - [`#7318`](https://github.com/ChainSafe/forest/pull/7318) — docs: group JSON-RPC overview and JWT auth in one section
