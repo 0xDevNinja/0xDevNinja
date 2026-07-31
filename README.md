@@ -357,16 +357,17 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 1 issue &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 2 issues &middot; <a href="https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
+- [`#64953`](https://github.com/NousResearch/hermes-agent/issues/64953) — [Bug]: skills install fails with false "Installation blocked" and orphans files when HERMES_HOME is a symlink
+- [`#65600`](https://github.com/NousResearch/hermes-agent/issues/65600) — [Bug]: Housekeeping-tool empty-follow-up shortcut wrongly ends the turn when a weak/quantized local model chokes instead of finishing
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 1 issue &middot; <a href="https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 1 issue &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#64953`](https://github.com/NousResearch/hermes-agent/issues/64953) — [Bug]: skills install fails with false "Installation blocked" and orphans files when HERMES_HOME is a symlink
+- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 
 </details>
 
