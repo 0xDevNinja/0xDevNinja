@@ -158,8 +158,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 16 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 17 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#12672`](https://github.com/NethermindEth/nethermind/pull/12672) — fix(jsonrpc): synchronise SubscriptionManager per-client subscription bag
 - [`#12551`](https://github.com/NethermindEth/nethermind/pull/12551) — fix(rpc): reject new eth_filters once the queued-results budget is exhausted
 - [`#12474`](https://github.com/NethermindEth/nethermind/pull/12474) — fix(tracing): restore log.contract when inner call frame exits
 - [`#12101`](https://github.com/NethermindEth/nethermind/pull/12101) — feat(debug): emit struct-log returnData in geth opcode tracers
@@ -348,6 +349,24 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
+- [`#7394`](https://github.com/ChainSafe/forest/issues/7394) — Allow `eth_call` and `eth_estimateGas` from contract and non-existent senders
+- [`#7422`](https://github.com/ChainSafe/forest/issues/7422) — `MinerGetBaseInfo` on Lotus requires a non-empty tipset key
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 3 issues &middot; <a href="https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#53403`](https://github.com/NousResearch/hermes-agent/issues/53403) — Bug: skill install crashes with ValueError when SKILLS_DIR or install path contains a symlink
+- [`#64953`](https://github.com/NousResearch/hermes-agent/issues/64953) — [Bug]: skills install fails with false "Installation blocked" and orphans files when HERMES_HOME is a symlink
+- [`#65600`](https://github.com/NousResearch/hermes-agent/issues/65600) — [Bug]: Housekeeping-tool empty-follow-up shortcut wrongly ends the turn when a weak/quantized local model chokes instead of finishing
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 3 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
@@ -357,17 +376,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 2 issues &middot; <a href="https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 1 issue &middot; <a href="https://github.com/NethermindEth/nethermind/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#64953`](https://github.com/NousResearch/hermes-agent/issues/64953) — [Bug]: skills install fails with false "Installation blocked" and orphans files when HERMES_HOME is a symlink
-- [`#65600`](https://github.com/NousResearch/hermes-agent/issues/65600) — [Bug]: Housekeeping-tool empty-follow-up shortcut wrongly ends the turn when a weak/quantized local model chokes instead of finishing
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 1 issue &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
-
-- [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
+- [`#12668`](https://github.com/NethermindEth/nethermind/issues/12668) — SubscriptionManager mutates a non-thread-safe HashSet without synchronisation
 
 </details>
 
