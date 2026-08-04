@@ -181,8 +181,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 14 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 15 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#7438`](https://github.com/ChainSafe/forest/pull/7438) — fix(rpc): require non-empty tipset key in MinerGetBaseInfo
 - [`#7419`](https://github.com/ChainSafe/forest/pull/7419) — feat(eth): allow eth_call and eth_estimateGas from contract and non-existent senders
 - [`#7347`](https://github.com/ChainSafe/forest/pull/7347) — test(lotus_json): assert LotusJson<Option<T>> is nullable in schema
 - [`#7319`](https://github.com/ChainSafe/forest/pull/7319) — refactor(tool): extract snapshot export into a shared module
