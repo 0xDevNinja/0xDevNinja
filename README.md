@@ -377,13 +377,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 1 issue &middot; <a href="https://github.com/NethermindEth/nethermind/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
-
-- [`#12668`](https://github.com/NethermindEth/nethermind/issues/12668) — SubscriptionManager mutates a non-thread-safe HashSet without synchronisation
-
-</details>
-
-<details>
 <summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 1 issue &middot; <a href="https://github.com/garrytan/gstack/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1348`](https://github.com/garrytan/gstack/issues/1348) — gstack-brain-init defaults to SSH remote, fails for HTTPS-configured `gh`
@@ -447,6 +440,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 - [`#19879`](https://github.com/MystenLabs/sui/issues/19879) — Sui Code Bug or Feature Request
 - [`#20607`](https://github.com/MystenLabs/sui/issues/20607) — Example not updated for Transaction_subscription in rust
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 1 issue &middot; <a href="https://github.com/NethermindEth/nethermind/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#12668`](https://github.com/NethermindEth/nethermind/issues/12668) — SubscriptionManager mutates a non-thread-safe HashSet without synchronisation
 
 </details>
 
