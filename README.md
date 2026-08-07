@@ -158,8 +158,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 17 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 18 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#12728`](https://github.com/NethermindEth/nethermind/pull/12728) — fix(sync): serialise SyncServer range-broadcast CTS swap
 - [`#12672`](https://github.com/NethermindEth/nethermind/pull/12672) — fix(jsonrpc): synchronise SubscriptionManager per-client subscription bag
 - [`#12551`](https://github.com/NethermindEth/nethermind/pull/12551) — fix(rpc): reject new eth_filters once the queued-results budget is exhausted
 - [`#12474`](https://github.com/NethermindEth/nethermind/pull/12474) — fix(tracing): restore log.contract when inner call frame exits
@@ -181,8 +182,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 15 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 16 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#7463`](https://github.com/ChainSafe/forest/pull/7463) — docs: fix incorrect CLI help and a garbled doc comment
 - [`#7438`](https://github.com/ChainSafe/forest/pull/7438) — fix(rpc): require non-empty tipset key in MinerGetBaseInfo
 - [`#7419`](https://github.com/ChainSafe/forest/pull/7419) — feat(eth): allow eth_call and eth_estimateGas from contract and non-existent senders
 - [`#7347`](https://github.com/ChainSafe/forest/pull/7347) — test(lotus_json): assert LotusJson<Option<T>> is nullable in schema
@@ -372,6 +374,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 - [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 - [`#7394`](https://github.com/ChainSafe/forest/issues/7394) — Allow `eth_call` and `eth_estimateGas` from contract and non-existent senders
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 1 issue &middot; <a href="https://github.com/NethermindEth/nethermind/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#12726`](https://github.com/NethermindEth/nethermind/issues/12726) — SyncServer.OnNewRange races on _rangeBroadcastCts between NewHeadBlock and NewOldestBlock
 
 </details>
 
