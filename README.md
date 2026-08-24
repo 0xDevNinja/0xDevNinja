@@ -102,8 +102,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details open>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 23 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 24 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#93864`](https://github.com/NousResearch/hermes-agent/pull/93864) — test(skills): cover symlinked-home install lock recording (#86971)
 - [`#72577`](https://github.com/NousResearch/hermes-agent/pull/72577) — fix(tools): recognise WeCom targets in _parse_target_ref
 - [`#68047`](https://github.com/NousResearch/hermes-agent/pull/68047) — fix(tools): let an explicit toolset list win over x_search auto-enable
 - [`#65674`](https://github.com/NousResearch/hermes-agent/pull/65674) — fix(agent): nudge once before the housekeeping empty-follow-up shortcut
@@ -146,7 +147,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#266`](https://github.com/calesthio/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
 - [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
 - [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
-- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix: repair local zero-key rendering (Remotion asset staging, resolveAsset, Piper status)
+- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix(piper_tts): report availability from the voice model, not just the binary
 - [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
 - [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
 - [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
@@ -182,8 +183,9 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 16 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 17 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
+- [`#7539`](https://github.com/ChainSafe/forest/pull/7539) — feat(wallet): support calldata in forest-wallet send
 - [`#7463`](https://github.com/ChainSafe/forest/pull/7463) — docs: fix incorrect CLI help and a garbled doc comment
 - [`#7438`](https://github.com/ChainSafe/forest/pull/7438) — fix(rpc): require non-empty tipset key in MinerGetBaseInfo
 - [`#7419`](https://github.com/ChainSafe/forest/pull/7419) — feat(eth): allow eth_call and eth_estimateGas from contract and non-existent senders
