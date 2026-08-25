@@ -354,11 +354,12 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 3 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 4 issues &middot; <a href="https://github.com/ChainSafe/forest/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#6353`](https://github.com/ChainSafe/forest/issues/6353) — Implement fallback blockstore
 - [`#7394`](https://github.com/ChainSafe/forest/issues/7394) — Allow `eth_call` and `eth_estimateGas` from contract and non-existent senders
 - [`#7449`](https://github.com/ChainSafe/forest/issues/7449) — Redundant CBOR encoding of messages during block validation
+- [`#7503`](https://github.com/ChainSafe/forest/issues/7503) — Add test coverage for StateMinerCreationDeposit network activation and calculation
 
 </details>
 
