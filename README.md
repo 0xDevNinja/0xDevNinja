@@ -159,6 +159,30 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 18 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#7545`](https://github.com/ChainSafe/forest/pull/7545) — test(rpc): cover StateMinerCreationDeposit initial-pledge calc
+- [`#7539`](https://github.com/ChainSafe/forest/pull/7539) — feat(wallet): support calldata in forest-wallet send
+- [`#7463`](https://github.com/ChainSafe/forest/pull/7463) — docs: fix incorrect CLI help and a garbled doc comment
+- [`#7438`](https://github.com/ChainSafe/forest/pull/7438) — fix(rpc): require non-empty tipset key in MinerGetBaseInfo
+- [`#7419`](https://github.com/ChainSafe/forest/pull/7419) — feat(eth): allow eth_call and eth_estimateGas from contract and non-existent senders
+- [`#7347`](https://github.com/ChainSafe/forest/pull/7347) — test(lotus_json): assert LotusJson<Option<T>> is nullable in schema
+- [`#7319`](https://github.com/ChainSafe/forest/pull/7319) — refactor(tool): extract snapshot export into a shared module
+- [`#7318`](https://github.com/ChainSafe/forest/pull/7318) — docs: group JSON-RPC overview and JWT auth in one section
+- [`#7312`](https://github.com/ChainSafe/forest/pull/7312) — docs: let wide tables use full width on large screens
+- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
+- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
+- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
+- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
+- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
+- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
+- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
+- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 18 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#12728`](https://github.com/NethermindEth/nethermind/pull/12728) — fix(sync): serialise SyncServer range-broadcast CTS swap
@@ -179,29 +203,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
 - [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
-
-</details>
-
-<details open>
-<summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 17 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#7539`](https://github.com/ChainSafe/forest/pull/7539) — feat(wallet): support calldata in forest-wallet send
-- [`#7463`](https://github.com/ChainSafe/forest/pull/7463) — docs: fix incorrect CLI help and a garbled doc comment
-- [`#7438`](https://github.com/ChainSafe/forest/pull/7438) — fix(rpc): require non-empty tipset key in MinerGetBaseInfo
-- [`#7419`](https://github.com/ChainSafe/forest/pull/7419) — feat(eth): allow eth_call and eth_estimateGas from contract and non-existent senders
-- [`#7347`](https://github.com/ChainSafe/forest/pull/7347) — test(lotus_json): assert LotusJson<Option<T>> is nullable in schema
-- [`#7319`](https://github.com/ChainSafe/forest/pull/7319) — refactor(tool): extract snapshot export into a shared module
-- [`#7318`](https://github.com/ChainSafe/forest/pull/7318) — docs: group JSON-RPC overview and JWT auth in one section
-- [`#7312`](https://github.com/ChainSafe/forest/pull/7312) — docs: let wide tables use full width on large screens
-- [`#7283`](https://github.com/ChainSafe/forest/pull/7283) — feat(api-compare): report tested API versions in conformance report
-- [`#7280`](https://github.com/ChainSafe/forest/pull/7280) — refactor(rpc): make RpcMethod DESCRIPTION mandatory
-- [`#7216`](https://github.com/ChainSafe/forest/pull/7216) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#7215`](https://github.com/ChainSafe/forest/pull/7215) — feat: honor FOREST_PATH env var for data directory
-- [`#7080`](https://github.com/ChainSafe/forest/pull/7080) — feat: honor FOREST_PATH env var for data directory
-- [`#6968`](https://github.com/ChainSafe/forest/pull/6968) — feat(wallet): strict address validation in forest-wallet CLI
-- [`#6967`](https://github.com/ChainSafe/forest/pull/6967) — feat(wallet)!: apply FRC-0102 envelope to sign/verify by default
-- [`#6966`](https://github.com/ChainSafe/forest/pull/6966) — fix(tool): surface MessagePool service task errors in api_cmd test ctx
-- [`#6395`](https://github.com/ChainSafe/forest/pull/6395) — feat(chainstore): add fallback blockstore skeleton with bitswap support
 
 </details>
 
