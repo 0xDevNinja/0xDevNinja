@@ -49,7 +49,7 @@ resolve_stack() {
   done < "$TMPDIR/repos_meta"
 } > "$TMPDIR/projects.md"
 
-# --- Ecosystem: external PRs grouped by repo, with titles + repo links ---
+# --- Ecosystem: external PRs grouped by repo inside one collapsed card ---
 # Exclude own-repo PRs at search time via `-user:$USER` so the result budget
 # isn't burned on self-authored PRs in personal repos. `gh search` max --limit
 # is 1000; well above the realistic ceiling of external PRs/issues.
@@ -68,18 +68,25 @@ gh search prs --author="$USER" --limit=1000 --json repository,title,url,state --
           }]
         })
       | sort_by(-.count)
-      | map(
-          "<details open>\n"
-          + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
-            + (.repo | gsub("/"; " / "))
-          + "</a></b> &middot; "
-          + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
-          + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">view all →</a>"
-          + "</summary>\n\n"
-          + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
+      | . as $groups
+      | ($groups | map(.count) | add // 0) as $total
+      | if ($groups | length) == 0 then "" else
+          "<details>\n"
+          + "<summary><b>" + ($total | tostring) + " PRs across " + ($groups | length | tostring) + " repos</b>"
+          + " &nbsp;<sub><i>(click to expand)</i></sub></summary>\n\n"
+          + ($groups | map(
+              "<details>\n"
+              + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
+                + (.repo | gsub("/"; " / "))
+              + "</a></b> &middot; "
+              + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
+              + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">view all →</a>"
+              + "</summary>\n\n"
+              + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
+              + "\n\n</details>"
+            ) | join("\n\n"))
           + "\n\n</details>"
-        )
-      | join("\n\n")' > "$TMPDIR/ecosystem.md"
+        end' > "$TMPDIR/ecosystem.md"
 
 if [ ! -s "$TMPDIR/ecosystem.md" ]; then
   echo "_No external PRs found._" > "$TMPDIR/ecosystem.md"
