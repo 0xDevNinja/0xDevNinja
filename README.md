@@ -342,6 +342,27 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details open>
+<summary><b><a href="https://github.com/temporalio/deputy">temporalio / deputy</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/deputy/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#398`](https://github.com/temporalio/deputy/pull/398) — Attribute the Go license to the stdlib and toolchain pseudo-packages
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/temporalio/sdk-php">temporalio / sdk-php</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/sdk-php/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#826`](https://github.com/temporalio/sdk-php/pull/826) — docs: require ext-protobuf 4.0 or newer
+
+</details>
+
+<details open>
+<summary><b><a href="https://github.com/temporalio/ui">temporalio / ui</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/ui/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#3971`](https://github.com/temporalio/ui/pull/3971) — fix(io): render paused status in warning colors
+
+</details>
+
+<details open>
 <summary><b><a href="https://github.com/tvl-labs/el-axon">tvl-labs / el-axon</a></b> &middot; 1 PR &middot; <a href="https://github.com/tvl-labs/el-axon/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1`](https://github.com/tvl-labs/el-axon/pull/1) — Feat: Axon AVS Contracts 
