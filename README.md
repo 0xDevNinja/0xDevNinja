@@ -101,7 +101,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 ## Ecosystem Contributions
 
 <!-- START:ecosystem -->
-<details open>
+<details>
+<summary><b>148 PRs across 20 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+
+<details>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 24 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#93864`](https://github.com/NousResearch/hermes-agent/pull/93864) — test(skills): cover symlinked-home install lock recording (#86971)
@@ -131,7 +134,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 21 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#443`](https://github.com/calesthio/OpenMontage/pull/443) — fix(audio_mixer): let full_mix pin the exact composition length (target_duration)
@@ -158,7 +161,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/ChainSafe/forest">ChainSafe / forest</a></b> &middot; 18 PRs &middot; <a href="https://github.com/ChainSafe/forest/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#7545`](https://github.com/ChainSafe/forest/pull/7545) — test(rpc): cover StateMinerCreationDeposit initial-pledge calc
@@ -182,7 +185,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/NethermindEth/nethermind">NethermindEth / nethermind</a></b> &middot; 18 PRs &middot; <a href="https://github.com/NethermindEth/nethermind/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#12728`](https://github.com/NethermindEth/nethermind/pull/12728) — fix(sync): serialise SyncServer range-broadcast CTS swap
@@ -206,7 +209,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/langchain-ai/langchain-azure">langchain-ai / langchain-azure</a></b> &middot; 13 PRs &middot; <a href="https://github.com/langchain-ai/langchain-azure/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#853`](https://github.com/langchain-ai/langchain-azure/pull/853) — fix(sqlserver): use not_in for $nin metadata filter operator
@@ -225,7 +228,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/garrytan/gstack">garrytan / gstack</a></b> &middot; 11 PRs &middot; <a href="https://github.com/garrytan/gstack/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2022`](https://github.com/garrytan/gstack/pull/2022) — fix(preamble): gate upgrade-handling prose on update_check opt-out (#2001)
@@ -242,7 +245,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud / opensre</a></b> &middot; 10 PRs &middot; <a href="https://github.com/Tracer-Cloud/opensre/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1982`](https://github.com/Tracer-Cloud/opensre/pull/1982) — fix(e2e): resolve repo root correctly in deploy helpers
@@ -258,7 +261,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/anomalyco/opencode">anomalyco / opencode</a></b> &middot; 8 PRs &middot; <a href="https://github.com/anomalyco/opencode/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#32790`](https://github.com/anomalyco/opencode/pull/32790) — fix(config): json-escape env/file substitutions into config text
@@ -272,7 +275,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/lmnr-ai/lmnr">lmnr-ai / lmnr</a></b> &middot; 5 PRs &middot; <a href="https://github.com/lmnr-ai/lmnr/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1921`](https://github.com/lmnr-ai/lmnr/pull/1921) — fix(sql): fall back to main ClickHouse creds for the read-only client
@@ -283,7 +286,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity / trufflehog</a></b> &middot; 5 PRs &middot; <a href="https://github.com/trufflesecurity/trufflehog/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#5051`](https://github.com/trufflesecurity/trufflehog/pull/5051) — feat(detectors): add Tencent Cloud credential detector
@@ -294,7 +297,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 3 PRs &middot; <a href="https://github.com/o1-labs/mina-rust/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#2210`](https://github.com/o1-labs/mina-rust/pull/2210) — chore(node-common): silence wasm32 build warnings in archive module
@@ -303,7 +306,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/tc39/tc39.github.io">tc39 / tc39.github.io</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tc39/tc39.github.io/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#662`](https://github.com/tc39/tc39.github.io/pull/662) — Remove dead links to deleted translation documentation
@@ -312,7 +315,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/weaviate/weaviate">weaviate / weaviate</a></b> &middot; 2 PRs &middot; <a href="https://github.com/weaviate/weaviate/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#11847`](https://github.com/weaviate/weaviate/pull/11847) — fix(flat): reject negative rescoreLimit on compression config (gh-11402)
@@ -320,52 +323,54 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/cowprotocol/services">cowprotocol / services</a></b> &middot; 1 PR &middot; <a href="https://github.com/cowprotocol/services/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#4371`](https://github.com/cowprotocol/services/pull/4371) — Enforce EIP-7825 per-tx gas cap on settlement
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/hyperlane-xyz/hyperlane-monorepo">hyperlane-xyz / hyperlane-monorepo</a></b> &middot; 1 PR &middot; <a href="https://github.com/hyperlane-xyz/hyperlane-monorepo/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1799`](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) — adding MAX_MESSAGE_BODY_BYTES check to MockMailbox
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/nervosnetwork/force-bridge">nervosnetwork / force-bridge</a></b> &middot; 1 PR &middot; <a href="https://github.com/nervosnetwork/force-bridge/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#386`](https://github.com/nervosnetwork/force-bridge/pull/386) — Force Bridge Eth contracts audit-suggestions
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/temporalio/deputy">temporalio / deputy</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/deputy/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#398`](https://github.com/temporalio/deputy/pull/398) — Attribute the Go license to the stdlib and toolchain pseudo-packages
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/temporalio/sdk-php">temporalio / sdk-php</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/sdk-php/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#826`](https://github.com/temporalio/sdk-php/pull/826) — docs: require ext-protobuf 4.0 or newer
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/temporalio/ui">temporalio / ui</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/ui/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#3971`](https://github.com/temporalio/ui/pull/3971) — fix(io): render paused status in warning colors
 
 </details>
 
-<details open>
+<details>
 <summary><b><a href="https://github.com/tvl-labs/el-axon">tvl-labs / el-axon</a></b> &middot; 1 PR &middot; <a href="https://github.com/tvl-labs/el-axon/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1`](https://github.com/tvl-labs/el-axon/pull/1) — Feat: Axon AVS Contracts 
+
+</details>
 
 </details>
 <!-- END:ecosystem -->
