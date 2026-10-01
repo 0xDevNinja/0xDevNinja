@@ -102,7 +102,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details>
-<summary><b>150 PRs across 22 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+<summary><b>151 PRs across 23 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <details>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 24 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
@@ -362,6 +362,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b><a href="https://github.com/temporalio/deputy">temporalio / deputy</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/deputy/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#398`](https://github.com/temporalio/deputy/pull/398) — Attribute the Go license to the stdlib and toolchain pseudo-packages
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/temporalio/sdk-go">temporalio / sdk-go</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/sdk-go/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#2724`](https://github.com/temporalio/sdk-go/pull/2724) — Add RegisterDynamicActivity to TestActivityEnvironment
 
 </details>
 
