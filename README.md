@@ -102,7 +102,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details>
-<summary><b>148 PRs across 20 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+<summary><b>150 PRs across 22 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <details>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 24 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
@@ -334,6 +334,20 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b><a href="https://github.com/hyperlane-xyz/hyperlane-monorepo">hyperlane-xyz / hyperlane-monorepo</a></b> &middot; 1 PR &middot; <a href="https://github.com/hyperlane-xyz/hyperlane-monorepo/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#1799`](https://github.com/hyperlane-xyz/hyperlane-monorepo/pull/1799) — adding MAX_MESSAGE_BODY_BYTES check to MockMailbox
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/makeplane/plane">makeplane / plane</a></b> &middot; 1 PR &middot; <a href="https://github.com/makeplane/plane/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#9922`](https://github.com/makeplane/plane/pull/9922) — fix(auth): stop shadowing base_host in space OAuth callbacks
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/makeplane/plane-mcp-server">makeplane / plane-mcp-server</a></b> &middot; 1 PR &middot; <a href="https://github.com/makeplane/plane-mcp-server/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#240`](https://github.com/makeplane/plane-mcp-server/pull/240) — fix(project): fall back to the project resource when /features 404s
 
 </details>
 
