@@ -135,29 +135,29 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 21 PRs &middot; <a href="https://github.com/calesthio/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+<summary><b><a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc / OpenMontage</a></b> &middot; 21 PRs &middot; <a href="https://github.com/OpenMontageInc/OpenMontage/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
-- [`#443`](https://github.com/calesthio/OpenMontage/pull/443) — fix(audio_mixer): let full_mix pin the exact composition length (target_duration)
-- [`#426`](https://github.com/calesthio/OpenMontage/pull/426) — fix(corpus_builder): fail when every candidate fails to process
-- [`#393`](https://github.com/calesthio/OpenMontage/pull/393) — fix(corpus): normalize diversify() position term so similarity can compete
-- [`#389`](https://github.com/calesthio/OpenMontage/pull/389) — fix(google_imagen): write every generated image, not just the first
-- [`#337`](https://github.com/calesthio/OpenMontage/pull/337) — fix(green_screen): scale chromakey background to frame size, not 1x1
-- [`#325`](https://github.com/calesthio/OpenMontage/pull/325) — fix: subtitle timestamp ms overflow; checkpoint KeyError on manifest-only stages
-- [`#309`](https://github.com/calesthio/OpenMontage/pull/309) — fix: openai_image returns all n images; segmented_music stops halving narration
-- [`#307`](https://github.com/calesthio/OpenMontage/pull/307) — fix(style_bridge): read playbook typography/pace from their real schema keys
-- [`#280`](https://github.com/calesthio/OpenMontage/pull/280) — fix(scoring): tokenizer swallows trailing punctuation; cinematic bonus uses raw split() (#279)
-- [`#278`](https://github.com/calesthio/OpenMontage/pull/278) — fix(delivery_promise): motion_required derived before has_footage reclassification (#277)
-- [`#266`](https://github.com/calesthio/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
-- [`#252`](https://github.com/calesthio/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
-- [`#251`](https://github.com/calesthio/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
-- [`#238`](https://github.com/calesthio/OpenMontage/pull/238) — fix(piper_tts): report availability from the voice model, not just the binary
-- [`#226`](https://github.com/calesthio/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
-- [`#223`](https://github.com/calesthio/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
-- [`#197`](https://github.com/calesthio/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
-- [`#195`](https://github.com/calesthio/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
-- [`#190`](https://github.com/calesthio/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
-- [`#188`](https://github.com/calesthio/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
-- [`#186`](https://github.com/calesthio/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
+- [`#443`](https://github.com/OpenMontageInc/OpenMontage/pull/443) — fix(audio_mixer): let full_mix pin the exact composition length (target_duration)
+- [`#426`](https://github.com/OpenMontageInc/OpenMontage/pull/426) — fix(corpus_builder): fail when every candidate fails to process
+- [`#393`](https://github.com/OpenMontageInc/OpenMontage/pull/393) — fix(corpus): normalize diversify() position term so similarity can compete
+- [`#389`](https://github.com/OpenMontageInc/OpenMontage/pull/389) — fix(google_imagen): write every generated image, not just the first
+- [`#337`](https://github.com/OpenMontageInc/OpenMontage/pull/337) — fix(green_screen): scale chromakey background to frame size, not 1x1
+- [`#325`](https://github.com/OpenMontageInc/OpenMontage/pull/325) — fix: subtitle timestamp ms overflow; checkpoint KeyError on manifest-only stages
+- [`#309`](https://github.com/OpenMontageInc/OpenMontage/pull/309) — fix: openai_image returns all n images; segmented_music stops halving narration
+- [`#307`](https://github.com/OpenMontageInc/OpenMontage/pull/307) — fix(style_bridge): read playbook typography/pace from their real schema keys
+- [`#280`](https://github.com/OpenMontageInc/OpenMontage/pull/280) — fix(scoring): tokenizer swallows trailing punctuation; cinematic bonus uses raw split() (#279)
+- [`#278`](https://github.com/OpenMontageInc/OpenMontage/pull/278) — fix(delivery_promise): motion_required derived before has_footage reclassification (#277)
+- [`#266`](https://github.com/OpenMontageInc/OpenMontage/pull/266) — fix: three independent zero-key correctness bugs (audio_mixer ducking, scene-variation run count, source-media schema)
+- [`#252`](https://github.com/OpenMontageInc/OpenMontage/pull/252) — fix(math_animate): gate caller-supplied scene_code execution (#219)
+- [`#251`](https://github.com/OpenMontageInc/OpenMontage/pull/251) — fix(video_compose): surface Remotion failures + add render timeout passthrough (#217)
+- [`#238`](https://github.com/OpenMontageInc/OpenMontage/pull/238) — fix(piper_tts): report availability from the voice model, not just the binary
+- [`#226`](https://github.com/OpenMontageInc/OpenMontage/pull/226) — feat(publish): add export_bundle, the first PUBLISH-tier tool
+- [`#223`](https://github.com/OpenMontageInc/OpenMontage/pull/223) — feat(audio): add music_library tool so user tracks surface at preflight
+- [`#197`](https://github.com/OpenMontageInc/OpenMontage/pull/197) — docs: resolve orphaned skill AGENTS.md scope and stale gsap README (#61)
+- [`#195`](https://github.com/OpenMontageInc/OpenMontage/pull/195) — fix: defer composition runtime choice to Present Both gate in reference-analyst
+- [`#190`](https://github.com/OpenMontageInc/OpenMontage/pull/190) — chore: add issue templates and a pull-request template
+- [`#188`](https://github.com/OpenMontageInc/OpenMontage/pull/188) — chore: add .gitattributes to normalize line endings
+- [`#186`](https://github.com/OpenMontageInc/OpenMontage/pull/186) — fix: use --props=<path> equals form for Remotion render on Windows
 
 </details>
 
@@ -411,11 +411,11 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 3 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc / OpenMontage</a></b> &middot; 3 issues &middot; <a href="https://github.com/OpenMontageInc/OpenMontage/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#237`](https://github.com/calesthio/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
-- [`#279`](https://github.com/calesthio/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
-- [`#306`](https://github.com/calesthio/OpenMontage/issues/306) — HyperFrames style bridge reads typography.heading and motion.pace from non-schema keys (both silently drop to fallback)
+- [`#237`](https://github.com/OpenMontageInc/OpenMontage/issues/237) — Local zero-key rendering broken: resolveAsset path mangling, unconverted audio paths, and false-available Piper TTS
+- [`#279`](https://github.com/OpenMontageInc/OpenMontage/issues/279) — Scoring tokenizer swallows trailing punctuation; cinematic bonus uses raw split()
+- [`#306`](https://github.com/OpenMontageInc/OpenMontage/issues/306) — HyperFrames style bridge reads typography.heading and motion.pace from non-schema keys (both silently drop to fallback)
 
 </details>
 
@@ -438,19 +438,19 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-closed -->
 <details>
-<summary><b><a href="https://github.com/calesthio/OpenMontage">calesthio / OpenMontage</a></b> &middot; 11 issues &middot; <a href="https://github.com/calesthio/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc / OpenMontage</a></b> &middot; 11 issues &middot; <a href="https://github.com/OpenMontageInc/OpenMontage/issues?q=is%3Aissue+is%3Aclosed+involves%3A0xDevNinja">view all →</a></summary>
 
-- [`#187`](https://github.com/calesthio/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
-- [`#189`](https://github.com/calesthio/OpenMontage/issues/189) — Add issue templates and a pull-request template
-- [`#265`](https://github.com/calesthio/OpenMontage/issues/265) — audio_mixer full_mix with ducking fails for single narration + music (dangling filtergraph pad)
-- [`#268`](https://github.com/calesthio/OpenMontage/issues/268) — check_scene_variation miscounts 'consecutive same-size shots' (counts non-consecutive pairs)
-- [`#269`](https://github.com/calesthio/OpenMontage/issues/269) — review_source_media emits a schema-invalid artifact when no media is reviewed (files:[] vs minItems:1)
-- [`#277`](https://github.com/calesthio/OpenMontage/issues/277) — classify_from_brief derives motion_required before has_footage reclassifies to SOURCE_LED
-- [`#308`](https://github.com/calesthio/OpenMontage/issues/308) — Media tools under-deliver: openai_image drops n>1 images (bills for n); segmented_music halves narration volume
-- [`#324`](https://github.com/calesthio/OpenMontage/issues/324) — Subtitle timestamps overflow to 4-digit ms; checkpoint validation KeyErrors on manifest-only stages
-- [`#336`](https://github.com/calesthio/OpenMontage/issues/336) — green_screen chromakey composites onto a 1x1 background -> solid-color output (subject lost)
-- [`#388`](https://github.com/calesthio/OpenMontage/issues/388) — google_imagen drops every image after the first while billing for all of them
-- [`#392`](https://github.com/calesthio/OpenMontage/issues/392) — corpus.diversify() is a no-op at its default: unbounded position term drowns the similarity term
+- [`#187`](https://github.com/OpenMontageInc/OpenMontage/issues/187) — Add a .gitattributes to normalize line endings (prevent CRLF breakage on Windows)
+- [`#189`](https://github.com/OpenMontageInc/OpenMontage/issues/189) — Add issue templates and a pull-request template
+- [`#265`](https://github.com/OpenMontageInc/OpenMontage/issues/265) — audio_mixer full_mix with ducking fails for single narration + music (dangling filtergraph pad)
+- [`#268`](https://github.com/OpenMontageInc/OpenMontage/issues/268) — check_scene_variation miscounts 'consecutive same-size shots' (counts non-consecutive pairs)
+- [`#269`](https://github.com/OpenMontageInc/OpenMontage/issues/269) — review_source_media emits a schema-invalid artifact when no media is reviewed (files:[] vs minItems:1)
+- [`#277`](https://github.com/OpenMontageInc/OpenMontage/issues/277) — classify_from_brief derives motion_required before has_footage reclassifies to SOURCE_LED
+- [`#308`](https://github.com/OpenMontageInc/OpenMontage/issues/308) — Media tools under-deliver: openai_image drops n>1 images (bills for n); segmented_music halves narration volume
+- [`#324`](https://github.com/OpenMontageInc/OpenMontage/issues/324) — Subtitle timestamps overflow to 4-digit ms; checkpoint validation KeyErrors on manifest-only stages
+- [`#336`](https://github.com/OpenMontageInc/OpenMontage/issues/336) — green_screen chromakey composites onto a 1x1 background -> solid-color output (subject lost)
+- [`#388`](https://github.com/OpenMontageInc/OpenMontage/issues/388) — google_imagen drops every image after the first while billing for all of them
+- [`#392`](https://github.com/OpenMontageInc/OpenMontage/issues/392) — corpus.diversify() is a no-op at its default: unbounded position term drowns the similarity term
 
 </details>
 
