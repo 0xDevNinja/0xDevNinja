@@ -427,6 +427,13 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 </details>
 
 <details>
+<summary><b><a href="https://github.com/cowprotocol/services">cowprotocol / services</a></b> &middot; 1 issue &middot; <a href="https://github.com/cowprotocol/services/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+
+- [`#2394`](https://github.com/cowprotocol/services/issues/2394) — chore: Remove feature gates for verified quotes
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/o1-labs/mina-rust">o1-labs / mina-rust</a></b> &middot; 1 issue &middot; <a href="https://github.com/o1-labs/mina-rust/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#1260`](https://github.com/o1-labs/mina-rust/issues/1260) — Limit the usage of `std`, and rely on `core` as often as possible
