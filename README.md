@@ -102,7 +102,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details>
-<summary><b>151 PRs across 23 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+<summary><b>169 PRs across 24 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <details>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 24 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
@@ -206,6 +206,30 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 - [`#11569`](https://github.com/NethermindEth/nethermind/pull/11569) — fix(snap-sync): refresh pivot instead of punishing the only peer (#6803)
 - [`#11552`](https://github.com/NethermindEth/nethermind/pull/11552) — feat(rpc): add eth_fillTransaction
 - [`#11524`](https://github.com/NethermindEth/nethermind/pull/11524) — feat(rpc): add debug_intermediateRoots
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/staffing-bot">ozpool / staffing-bot</a></b> &middot; 18 PRs &middot; <a href="https://github.com/ozpool/staffing-bot/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
+
+- [`#18`](https://github.com/ozpool/staffing-bot/pull/18) — docs: tag the bot by its new name, Ancibot
+- [`#17`](https://github.com/ozpool/staffing-bot/pull/17) — fix: set date format on new rows
+- [`#16`](https://github.com/ozpool/staffing-bot/pull/16) — GET /health endpoint
+- [`#15`](https://github.com/ozpool/staffing-bot/pull/15) — Run on the server (job-sentinel pipeline)
+- [`#14`](https://github.com/ozpool/staffing-bot/pull/14) — Write the team's sheet layout
+- [`#13`](https://github.com/ozpool/staffing-bot/pull/13) — Quieter thread reads
+- [`#12`](https://github.com/ozpool/staffing-bot/pull/12) — Read every new message in a thread on one tag
+- [`#11`](https://github.com/ozpool/staffing-bot/pull/11) — Send to staffing bot message shortcut
+- [`#10`](https://github.com/ozpool/staffing-bot/pull/10) — Add check-sheet command
+- [`#9`](https://github.com/ozpool/staffing-bot/pull/9) — Move in-process candidates by message
+- [`#8`](https://github.com/ozpool/staffing-bot/pull/8) — Sign in with spreadsheets scope
+- [`#7`](https://github.com/ozpool/staffing-bot/pull/7) — In-process candidates and newest rows on top
+- [`#6`](https://github.com/ozpool/staffing-bot/pull/6) — Drop Summary column, add Candidates tab
+- [`#5`](https://github.com/ozpool/staffing-bot/pull/5) — feat: interviews, reminders and edit trail
+- [`#4`](https://github.com/ozpool/staffing-bot/pull/4) — feat: update candidates from messages
+- [`#3`](https://github.com/ozpool/staffing-bot/pull/3) — feat: orchestrator and candidate submissions
+- [`#2`](https://github.com/ozpool/staffing-bot/pull/2) — refactor: group code into slack, ai and sheets folders
+- [`#1`](https://github.com/ozpool/staffing-bot/pull/1) — feat: append to JD and read updates from requirement threads
 
 </details>
 
