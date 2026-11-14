@@ -426,9 +426,10 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 3 issues &middot; <a href="https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 4 issues &middot; <a href="https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue+is%3Aopen+involves%3A0xDevNinja">view all →</a></summary>
 
 - [`#53403`](https://github.com/NousResearch/hermes-agent/issues/53403) — Bug: skill install crashes with ValueError when SKILLS_DIR or install path contains a symlink
+- [`#57647`](https://github.com/NousResearch/hermes-agent/issues/57647) — no_agent cron 投递在 Telegram 上仍包含 "Cronjob Response" 封装层
 - [`#64953`](https://github.com/NousResearch/hermes-agent/issues/64953) — [Bug]: skills install fails with false "Installation blocked" and orphans files when HERMES_HOME is a symlink
 - [`#65600`](https://github.com/NousResearch/hermes-agent/issues/65600) — [Bug]: Housekeeping-tool empty-follow-up shortcut wrongly ends the turn when a weak/quantized local model chokes instead of finishing
 
