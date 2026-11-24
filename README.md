@@ -102,7 +102,7 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 
 <!-- START:ecosystem -->
 <details>
-<summary><b>169 PRs across 24 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
+<summary><b>168 PRs across 23 repos</b> &nbsp;<sub><i>(click to expand)</i></sub></summary>
 
 <details>
 <summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch / hermes-agent</a></b> &middot; 24 PRs &middot; <a href="https://github.com/NousResearch/hermes-agent/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
@@ -407,13 +407,6 @@ I optimize for cross-chain interoperability and on-chain settlement correctness 
 <summary><b><a href="https://github.com/temporalio/ui">temporalio / ui</a></b> &middot; 1 PR &middot; <a href="https://github.com/temporalio/ui/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
 
 - [`#3971`](https://github.com/temporalio/ui/pull/3971) — fix(io): render paused status in warning colors
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/tvl-labs/el-axon">tvl-labs / el-axon</a></b> &middot; 1 PR &middot; <a href="https://github.com/tvl-labs/el-axon/pulls?q=author%3A0xDevNinja+is%3Apr">view all →</a></summary>
-
-- [`#1`](https://github.com/tvl-labs/el-axon/pull/1) — Feat: Axon AVS Contracts 
 
 </details>
 
